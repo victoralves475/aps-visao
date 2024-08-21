@@ -1,5 +1,3 @@
-Aqui está uma "Visão do Produto" baseada nas respostas fornecidas para o sistema de gestão de processos judiciais no âmbito da advocacia:
-
 ---
 
 <h1>Visão do Produto</h1>
