@@ -92,7 +92,7 @@ O **SGPJ** apresenta várias oportunidades de negócios:
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------|
 | Escritórios de Advocacia               | Organizações que utilizam o sistema para gerenciar processos judiciais e melhorar a produtividade de seus advogados e funcionários administrativos.       | Usuário do sistema                                             |
 | Equipe de Desenvolvimento              | Profissionais responsáveis por desenvolver e manter o sistema.                                                                                            | Desenvolvedores                                                |
-| Gerente de Projeto                     | Profissional responsável por gerenciar o projeto, garantindo a entrega do sistema dentro do prazo e orçamento definidos.                                  | Gerente de Projeto                                             |
+| Gerente de Projeto                     | Profissional responsável por gerenciar o projeto, utilizando as técnicas mais eficientes para tanto.                                  | Gerente de Projeto                                             |
 | Departamento de Atendimento ao Cliente | Profissionais que fornecem suporte técnico e treinamento para escritórios de advocacia que utilizam o sistema.                                            | Suporte ao cliente                                             |
 
 ## Usuários
