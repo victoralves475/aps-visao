@@ -90,8 +90,8 @@ O **SGPJ** apresenta várias oportunidades de negócios:
 
 ## Stakeholders
 
-| Stakeholder                            | Descrição                                                                                                                                                 | Papel                                                          |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------|
+| Stakeholder                            | Descrição                                                                                                                                                 | Papel |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------|
 | Escritórios de Advocacia               | Organizações que utilizam o sistema para gerenciar processos judiciais e melhorar a produtividade de seus advogados e funcionários administrativos.       | Usuário do sistema                                             |
 | Equipe de Desenvolvimento              | Profissionais responsáveis por desenvolver e manter o sistema.                                                                                            | Desenvolvedores                                                |
 | Gerente de Projeto                     | Profissional responsável por gerenciar o projeto, garantindo a entrega do sistema dentro do prazo e orçamento definidos.                                  | Gerente de Projeto                                             |
@@ -99,10 +99,10 @@ O **SGPJ** apresenta várias oportunidades de negócios:
 
 ## Usuários
 
-| Usuário                  | Descrição                                                                                                    | Responsabilidades                                                                                                                                                                                                                   | Stakeholders                                                                 |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Advogados                | Profissionais jurídicos que utilizam o sistema para gerenciar seus processos e prazos judiciais.              | Acompanhar e gerenciar processos, prazos, intimações e audiências.                                                                                                                            | Escritórios de Advocacia, Equipe de Desenvolvimento, Gerente de Projeto      |
-| Funcionários Administrativos | Profissionais responsáveis pelo suporte administrativo no escritório de advocacia.                          | Gerenciar documentos, auxiliar na gestão de prazos e intimações, fornecer suporte administrativo aos advogados.                                                                                 | Escritórios de Advocacia, Equipe de Desenvolvimento, Gerente de Projeto      |
+| Usuário        | Descrição             |      Responsabilidades                 | Stakeholders      |
+| ---------------| --------------------- | -------------------------------------- | ----------------- |
+| Advogados      | Profissionais jurídicos que utilizam o sistema para gerenciar seus processos e prazos judiciais. | Acompanhar e gerenciar processos, prazos, intimações e audiências. | Escritórios de Advocacia, Equipe de Desenvolvimento, Gerente de Projeto |
+| Funcionários Administrativos | Profissionais responsáveis pelo suporte administrativo no escritório de advocacia. | Gerenciar documentos, auxiliar na gestão de prazos e intimações, fornecer suporte administrativo aos advogados. | Escritórios de Advocacia, Equipe de Desenvolvimento, Gerente de Projeto|
 
 ---
 
