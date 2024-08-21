@@ -50,17 +50,17 @@ Este documento tem como objetivo coletar, analisar e definir as necessidades de 
 | :---: | -------------------------------------------- |
 |  DVP  | Documento de Visão do Produto                |
 |  PJE  | Processo Judicial Eletrônico                 |
-| SGPJ  | Sistema de Gestão de Processos Judiciais      |
+| SGPJ  | Sistema de Gestão de Processos Judiciais     |
 
 ### Definições
 
 | Termo      | Definição                                                                                  |
 | :--------: | ------------------------------------------------------------------------------------------ |
-| Advogado   | Profissional que utiliza o sistema para gerir processos judiciais e prazos.                 |
-| Processo   | Conjunto de documentos relacionados a um caso judicial específico.                          |
-| Intimação  | Notificação oficial enviada pelo tribunal para informar sobre um ato judicial.            |
-| Diário     | Publicação oficial onde são divulgadas decisões judiciais e intimações.                     |
-| Agenda     | Ferramenta de organização de prazos e compromissos judiciais, integrada ao SGPJ.            |
+| Advogado   | Profissional que utiliza o sistema para gerir processos judiciais e prazos.                |
+| Processo   | Conjunto de documentos relacionados a um caso judicial específico.                         |
+| Intimação  | Notificação oficial enviada pelo tribunal para informar sobre um ato judicial.             |
+| Diário     | Publicação oficial onde são divulgadas decisões judiciais e intimações.                    |
+| Agenda     | Ferramenta de organização de prazos e compromissos judiciais, integrada ao SGPJ.           |
 
 ---
 
@@ -77,12 +77,12 @@ O **SGPJ** apresenta várias oportunidades de negócios:
 
 ## Descrição dos benefícios para os clientes e dos problemas resolvidos
 
-| Benefícios                           | Problemas Resolvidos                                                                                 | Afetados                                                                 |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Benefícios                           | Problemas Resolvidos                                                                                  | Afetados                                                                |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------|
 | Aumento da produtividade             | Gestão manual de processos e prazos, que consome tempo e recursos.                                    | Advogados e funcionários administrativos                                |
 | Automação da leitura de diários      | Necessidade de verificar manualmente os diários judiciais para identificar intimações e publicações.  | Advogados e funcionários administrativos                                |
-| Organização de prazos e compromissos | Dificuldade de manter controle eficiente de prazos judiciais sem uma ferramenta integrada.            | Advogados                                                                |
-| Comunicação com clientes             | Necessidade de gerar relatórios automáticos para informar os clientes sobre o andamento de seus casos. | Escritório de advocacia e clientes                                       |
+| Organização de prazos e compromissos | Dificuldade de manter controle eficiente de prazos judiciais sem uma ferramenta integrada.            | Advogados                                                               |
+| Comunicação com clientes             | Necessidade de gerar relatórios automáticos para informar os clientes sobre o andamento de seus casos.| Escritório de advocacia e clientes                                      |
 
 ---
 
@@ -90,12 +90,12 @@ O **SGPJ** apresenta várias oportunidades de negócios:
 
 ## Stakeholders
 
-| Stakeholder                            | Descrição                                                                                                                                                 | Papel                                                            |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| Escritórios de Advocacia               | Organizações que utilizam o sistema para gerenciar processos judiciais e melhorar a produtividade de seus advogados e funcionários administrativos.         | Usuário do sistema                                               |
-| Equipe de Desenvolvimento              | Profissionais responsáveis por desenvolver e manter o sistema.                                                                                            | Desenvolvedores                                                  |
-| Gerente de Projeto                     | Profissional responsável por gerenciar o projeto, garantindo a entrega do sistema dentro do prazo e orçamento definidos.                                    | Gerente de Projeto                                               |
-| Departamento de Atendimento ao Cliente | Profissionais que fornecem suporte técnico e treinamento para escritórios de advocacia que utilizam o sistema.                                             | Suporte ao cliente                                                |
+| Stakeholder                            | Descrição                                                                                                                                                 | Papel                                                          |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------|
+| Escritórios de Advocacia               | Organizações que utilizam o sistema para gerenciar processos judiciais e melhorar a produtividade de seus advogados e funcionários administrativos.       | Usuário do sistema                                             |
+| Equipe de Desenvolvimento              | Profissionais responsáveis por desenvolver e manter o sistema.                                                                                            | Desenvolvedores                                                |
+| Gerente de Projeto                     | Profissional responsável por gerenciar o projeto, garantindo a entrega do sistema dentro do prazo e orçamento definidos.                                  | Gerente de Projeto                                             |
+| Departamento de Atendimento ao Cliente | Profissionais que fornecem suporte técnico e treinamento para escritórios de advocacia que utilizam o sistema.                                            | Suporte ao cliente                                             |
 
 ## Usuários
 
