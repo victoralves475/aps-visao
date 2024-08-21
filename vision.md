@@ -129,11 +129,9 @@ A aplicação será executada nos desktop através dos navegadores mais populare
 
 ## Restrições
 
-1. **Restrição de orçamento**: O projeto deve ser concluído dentro do orçamento estabelecido pelo escritório de advocacia.
-2. **Restrição de tempo**: O sistema deve ser desenvolvido e entregue dentro do prazo acordado com o cliente, com entregas contínuas de MVPs (Produto Mínimo Viável).
-3. **Restrição de segurança**: O sistema deve atender a requisitos rigorosos de segurança para proteger o sigilo das informações dos clientes e processos.
-4. **Restrição de desempenho**: O sistema deve ser rápido e eficiente, com tempo de resposta curto e sem falhas.
-5. **Restrição de usabilidade**: O sistema deve ser fácil de usar e intuitivo, sem exigir treinamento especializado.
+1. **Restrição de segurança**: O sistema deve atender a requisitos rigorosos de segurança para proteger o sigilo das informações dos clientes e processos.
+2. **Restrição de desempenho**: O sistema deve ser rápido e eficiente, com tempo de resposta curto e sem falhas.
+3. **Restrição de usabilidade**: O sistema deve ser fácil de usar e intuitivo, sem exigir treinamento especializado.
 
 ---
 
