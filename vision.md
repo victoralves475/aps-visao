@@ -34,7 +34,7 @@
 
 # Introdução
 
-O Documento de Visão do Produto (DVP) para o **Sistema de Gestão de Processos Judiciais (SGPJ)** descreve o software a ser desenvolvido para escritórios de advocacia. O sistema tem como objetivo automatizar a gestão de processos judiciais, leitura de diários e intimações, e auxiliar advogados e suas equipes na organização dos prazos e atividades relacionadas às demandas judiciais.
+O Documento de Visão do Produto (DVP) para o **Sistema de Gestão de Processos Judiciais (SGPJ)** descreve o software a ser desenvolvido para escritórios de advocacia. O sistema tem como objetivo automatizar a gestão de processos judiciais, leitura de diários da justiça e intimações, bem como auxiliar advogados e suas equipes na organização dos prazos e das atividades relacionadas às demandas judiciais.
 
 ## Propósito
 
@@ -58,7 +58,7 @@ Este documento tem como objetivo coletar, analisar e definir as necessidades de 
 | Processo   | Conjunto de documentos relacionados a um caso judicial específico.                         |
 | Intimação  | Notificação oficial enviada pelo tribunal para informar sobre um ato judicial.             |
 | Diário     | Publicação oficial onde são divulgadas decisões judiciais e intimações.                    |
-| Agenda     | Ferramenta de organização de prazos e compromissos judiciais, integrada ao SGPJ.           |
+| Agenda     | Ferramenta de organização de prazos e compromissos judiciais integrada ao SGPJ.           |
 
 ---
 
@@ -70,7 +70,7 @@ O **SGPJ** apresenta várias oportunidades de negócios:
 
 1. **Licenciamento**: O sistema pode ser oferecido sob licenciamento, com cobrança mensal ou anual, atendendo a escritórios de diferentes tamanhos.
 2. **Consultoria**: Serviços de customização e consultoria podem ser oferecidos para adaptar o sistema às necessidades específicas de grandes escritórios.
-3. **Integrações**: Possibilidade de expansão para integrar o sistema com plataformas de automação de documentos, gestão de contratos ou sistemas de contabilidade.
+3. **Integrações**: Possibilidade de expansão para integrar o sistema com plataformas de automação de documentos, de gestão de contratos e de sistemas de contabilidade.
 4. **Expansão para outros mercados**: O SGPJ pode ser adaptado para outros mercados, como departamentos jurídicos corporativos, que possuem necessidades semelhantes em termos de gestão de processos.
 
 ## Descrição dos benefícios para os clientes e dos problemas resolvidos
@@ -78,7 +78,7 @@ O **SGPJ** apresenta várias oportunidades de negócios:
 | Benefícios                           | Problemas Resolvidos                                                                                  | Afetados                                                                |
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------|
 | Aumento da produtividade             | Gestão manual de processos e prazos, que consome tempo e recursos.                                    | Advogados e funcionários administrativos                                |
-| Automação da leitura de diários      | Necessidade de verificar manualmente os diários judiciais para identificar intimações e publicações.  | Advogados e funcionários administrativos                                |
+| Automação da leitura de diários da justiça     | Necessidade de verificar manualmente os diários judiciais para identificar intimações e publicações.  | Advogados e funcionários administrativos                                |
 | Organização de prazos e compromissos | Dificuldade de manter controle eficiente de prazos judiciais sem uma ferramenta integrada.            | Advogados                                                               |
 | Comunicação com clientes             | Necessidade de gerar relatórios automáticos para informar os clientes sobre o andamento de seus casos.| Escritório de advocacia e clientes                                      |
 
@@ -109,6 +109,7 @@ O **SGPJ** apresenta várias oportunidades de negócios:
 ## Ambiente de uso
 
 O **SGPJ** será utilizado tanto em ambiente desktop quanto em dispositivos móveis, proporcionando flexibilidade aos advogados e funcionários administrativos para gerenciar seus processos a qualquer momento e de qualquer lugar.
+A aplicação será executada nos desktop através dos navegadores mais populares, bem como em smartphones Android e iOS.
 
 1. **Ambiente do Escritório**: Acesso ao sistema por meio de desktop ou laptop, utilizado para a gestão completa dos processos e prazos.
 2. **Ambiente Mobile**: Acesso ao sistema por meio de dispositivos móveis, como smartphones e tablets, permitindo o acompanhamento dos processos e a consulta de prazos de forma rápida e conveniente.
