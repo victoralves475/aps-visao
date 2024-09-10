@@ -1,7 +1,3 @@
-Aqui está a estrutura do documento de requisitos de software para o **Sistema de Gestão de Processos Judiciais (SGPJ)**, utilizando o formato solicitado e mantendo os requisitos fornecidos:
-
----
-
 # Requisitos de Software
 
 <h2>Sistema de Gestão de Processos Judiciais (SGPJ)</h2>
@@ -45,11 +41,21 @@ Este documento apresenta os requisitos de software para o **Sistema de Gestão d
 
 ## Definições, Acrônimos e Abreviações
 
-- **SGPJ**: Sistema de Gestão de Processos Judiciais.
-- **PJe**: Processo Judicial Eletrônico.
-- **RF**: Requisito Funcional.
-- **RNF**: Requisito Não-Funcional.
-- **Usuário**: Refere-se aos advogados, funcionários e administradores que utilizarão o sistema.
+Esta subseção fornece as definições de todos os termos, acrônimos e abreviações necessárias à adequada interpretação do Documento de Requisitos.
+
+- Identificação dos requisitos: por convenção, a referência a requisitos é feita através do identificador de requisitos, de acordo como descrito abaixo:
+
+  `[IDENTIFICADOR DO TIPO DE REQUISITOSidentificador do requisito]`
+
+  O identificador do tipo de requisitos é conforme abaixo:
+
+  - RF – Requisito Funcional
+  - RNF – Requisito Não-Funcional
+  - NR – Não-Requisito
+
+  O identificador do requisito será uma sequência numérica. Esse número sequencial será único para todo o conjunto de tipos de requisitos.
+
+  **Exemplo**: RF0001, RF1234, RNF1234, NR1212
 
 ---
 
