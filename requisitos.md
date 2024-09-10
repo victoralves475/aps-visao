@@ -1,0 +1,117 @@
+Aqui está a estrutura do documento de requisitos de software para o **Sistema de Gestão de Processos Judiciais (SGPJ)**, utilizando o formato solicitado e mantendo os requisitos fornecidos:
+
+---
+
+# Requisitos de Software
+
+<h2>Sistema de Gestão de Processos Judiciais (SGPJ)</h2>
+
+<small>Versão 1.0</small>
+
+---
+
+## Histórico de revisões
+
+|    Data    | Versão |           Descrição           |      Autor       |
+| :--------: | :----: | :---------------------------: | :--------------: |
+| 10/09/2024 |  1.0   |    Criação do documento        | Equipe 4         |
+
+---
+
+## Sumário
+
+- [Capa](#capa)
+  - [Histórico de revisões](#histórico-de-revisões)
+  - [Sumário](#sumário)
+- [Introdução](#introdução)
+  - [Definições, Acrônimos e Abreviações](#definições-acrônimos-e-abreviações)
+- [Usuários Identificados](#usuários-identificados)
+- [Requisitos Funcionais](#requisitos-funcionais)
+- [Requisitos Não-Funcionais](#requisitos-não-funcionais)
+  - [Disponibilidade](#disponibilidade)
+  - [Privacidade e Segurança](#privacidade-e-segurança)
+  - [Usabilidade](#usabilidade)
+  - [Suportabilidade](#suportabilidade)
+  - [Interoperabilidade](#interoperabilidade)
+  - [Manutenibilidade](#manutenibilidade)
+  - [Desempenho](#desempenho)
+  - [Implantação](#implantação)
+
+---
+
+# Introdução
+
+Este documento apresenta os requisitos de software para o **Sistema de Gestão de Processos Judiciais (SGPJ)**, que será utilizado por advogados, funcionários administrativos e administradores para facilitar o gerenciamento de processos judiciais, intimações, prazos e audiências.
+
+## Definições, Acrônimos e Abreviações
+
+- **SGPJ**: Sistema de Gestão de Processos Judiciais.
+- **PJe**: Processo Judicial Eletrônico.
+- **RF**: Requisito Funcional.
+- **RNF**: Requisito Não-Funcional.
+- **Usuário**: Refere-se aos advogados, funcionários e administradores que utilizarão o sistema.
+
+---
+
+# Usuários Identificados
+
+Os seguintes usuários foram identificados para o **SGPJ**:
+
+- **Advogados**: Utilizam o sistema para gerenciar seus processos, intimações e prazos.
+- **Funcionários Administrativos**: Auxiliam na gestão dos processos e no suporte administrativo aos advogados.
+- **Administradores**: Gerenciam o sistema, controlando o cadastro de usuários e os backups de dados.
+
+---
+
+# Requisitos Funcionais
+
+- **[RF001]** Como usuário, gostaria de acessar a plataforma através de credenciais como email e senha ou certificado digital.
+- **[RF002]** Como administrador, gostaria de cadastrar advogados e funcionários.
+- **[RF003]** Como advogado ou funcionário, gostaria de selecionar as UFs cujas publicações nos diários da justiça desejo monitorar.
+- **[RF004]** Como advogado ou funcionário, gostaria de registrar meus clientes e seus respectivos processos, armazenando dados pessoais e informações das demandas judiciais.
+- **[RF005]** Como advogado, funcionário ou administrador, gostaria de ter o histórico dos advogados e/ou estagiários que atuaram em cada fase dos processos judiciais dos clientes.
+- **[RF006]** Como administrador, gostaria de realizar o backup dos dados dos clientes e seus respectivos processos, para poder recuperá-los em caso de falha.
+- **[RF007]** Como advogado ou funcionário, gostaria de gerenciar minhas audiências de maneira cronológica.
+- **[RF008]** Como advogado ou funcionário, gostaria que o sistema fosse capaz de ler automaticamente as intimações no PJe e categorizá-las.
+- **[RF009]** Como administrador, gostaria de definir um horário para que o sistema realizasse as buscas de publicações para os advogados do escritório nos diários da justiça.
+- **[RF010]** Como advogado ou funcionário, gostaria de poder visualizar e interagir com as notificações das publicações dos diários da justiça, marcando-as como concluídas, em andamento ou a serem feitas.
+- **[RF011]** Como advogado ou funcionário, gostaria de poder excluir as notificações das publicações dos diários da justiça.
+- **[RF012]** Como advogado ou funcionário, gostaria de categorizar os processos em **URGENTES**, **PRIORITÁRIOS** ou **SEM PRIORIDADE**.
+- **[RF013]** Como advogado ou funcionário, gostaria de encaminhar para o WhatsApp dos clientes o andamento processual dos seus respectivos processos.
+- **[RF014]** Como administrador, gostaria de remover os funcionários e advogados do sistema.
+- **[RF015]** Como administrador, gostaria de conceder e revogar as permissões dos funcionários e advogados a qualquer momento.
+- **[RF016]** Como administrador, gostaria de vincular e desvincular cada funcionário a seu respectivo advogado.
+- **[RF017]** Como administrador, gostaria de abrir chamados diretamente para a equipe de suporte do sistema.
+- **[RF018]** Como advogado ou funcionário, gostaria de pesquisar jurisprudências e doutrinas dentro do sistema, com base em palavras-chave e categorias.
+- **[RF019]** Como administrador, gostaria de acessar um painel que mostrasse a produtividade dos advogados e funcionários do sistema.
+- **[RF020]** Como administrador, gostaria de anotar as faltas funcionais dos advogados e funcionários.
+
+---
+
+# Requisitos Não-Funcionais
+
+## Disponibilidade
+- **[RNF001]** O sistema deverá estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano.
+
+## Privacidade e Segurança
+- **[RNF002]** O sistema deve ser integrado com o Diário da Justiça para a leitura das intimações.
+- **[RNF005]** O sistema deve ser seguro, protegido contra acesso não autorizado, invasões e roubo de dados.
+
+## Usabilidade
+- **[RNF006]** O sistema deve ser fácil de usar, sem exigir treinamento extenso para advogados e funcionários.
+
+## Suportabilidade
+- **[RNF007]** O sistema deve ser compatível com os navegadores Google Chrome, Mozilla Firefox e Microsoft Edge.
+
+## Interoperabilidade
+- **[RNF008]** O sistema deve ser integrado com os sites dos tribunais de justiça para permitir buscas por jurisprudência.
+
+## Manutenibilidade
+- **[RNF009]** O sistema deve ser escalável, permitindo a expansão de sua capacidade sem perda de desempenho.
+
+## Desempenho
+- **[RNF010]** O tempo de resposta do sistema deve ser de no máximo 5 segundos com uma conexão de 1 Mbps.
+
+## Implantação
+- **[RNF011]** O sistema deve ser executado em qualquer dispositivo com conexão à internet, incluindo desktops, tablets e smartphones.
+
