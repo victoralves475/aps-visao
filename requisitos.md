@@ -121,3 +121,47 @@ Os seguintes usuários foram identificados para o **SGPJ**:
 ## Implantação
 - **[RNF011]** O sistema deve ser executado em qualquer dispositivo com conexão à internet, incluindo desktops, tablets e smartphones.
 
+# Matriz de Rastreabilidade
+
+| RF / RNF  | RNF001 | RNF002 | RNF003 | RNF004 | RNF005 | RNF006 | RNF007 | RNF008 | RNF009 | RNF010 | RNF011 |
+| :-------: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+|  **RF001**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF002**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF003**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF004**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF005**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF006**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF007**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF008**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF009**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF010**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF011**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF012**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF013**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF014**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF015**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF016**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF017**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF018**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF019**|        |        |        |        |        |        |        |        |        |        |        |
+|  **RF020**|        |        |        |        |        |        |        |        |        |        |        |
+
+---
+
+Data: 10 de setembro de 2024
+
+**Validado por:**
+
+<address>
+<a href="mailto:equipe4@equipe4.com.br">Equipe 4</a> | Desenvolvimento de Software<br>
+equipe4@equipe4.com.br<br>
+equipe4.com<br>
+Av. Epitácio Pessoa, S/N, João Pessoa(PB)<br>
+BRA
+</address>
+
+---
+
+Criado em Setembro de 2024 por Equipe 4
+
+---
