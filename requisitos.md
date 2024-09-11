@@ -73,10 +73,10 @@ Os seguintes usuários foram identificados para o **SGPJ**:
 
 - **[RF001]** Como usuário, gostaria de acessar a plataforma através de credenciais como email e senha ou certificado digital.
 - **[RF002]** Como administrador, gostaria de cadastrar advogados e funcionários.
-- **[RF003]** Como advogado ou funcionário, gostaria de selecionar as UFs cujas publicações nos diários da justiça desejo monitorar.
+- **[RF003]** Como advogado ou funcionário, gostaria de selecionar as UFs cujas publicações nos diários da justiça desejo monitorar, selecionando uma ou mais UFs e salvando a seleção clicando em um botão SALVAR.
 - **[RF004]** Como advogado ou funcionário, gostaria de registrar meus clientes e seus respectivos processos, armazenando dados pessoais e informações das demandas judiciais.
-- **[RF005]** Como advogado, funcionário ou administrador, gostaria de ter o histórico dos advogados e/ou estagiários que atuaram em cada fase dos processos judiciais dos clientes.
-- **[RF006]** Como administrador, gostaria de realizar o backup dos dados dos clientes e seus respectivos processos, para poder recuperá-los em caso de falha.
+- **[RF005]** Como advogado, funcionário ou administrador, gostaria de ter o histórico dos advogados e/ou estagiários que atuaram em cada fase dos processos judiciais dos clientes do escritório.
+- **[RF006]** Como administrador, gostaria de realizar o backup dos dados dos clientes e seus respectivos processos, para poder recuperá-los em caso de falha no sistema.
 - **[RF007]** Como advogado ou funcionário, gostaria de gerenciar minhas audiências de maneira cronológica.
 - **[RF008]** Como advogado ou funcionário, gostaria que o sistema fosse capaz de ler automaticamente as intimações no PJe e categorizá-las.
 - **[RF009]** Como administrador, gostaria de definir um horário para que o sistema realizasse as buscas de publicações para os advogados do escritório nos diários da justiça.
@@ -97,54 +97,53 @@ Os seguintes usuários foram identificados para o **SGPJ**:
 # Requisitos Não-Funcionais
 
 ## Disponibilidade
-- **[RNF001]** O sistema deverá estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano.
+- **[RNF007]** O sistema deverá estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano.
 
 ## Privacidade e Segurança
-- **[RNF002]** O sistema deve ser integrado com o Diário da Justiça para a leitura das intimações.
 - **[RNF005]** O sistema deve ser seguro, protegido contra acesso não autorizado, invasões e roubo de dados.
 
 ## Usabilidade
-- **[RNF006]** O sistema deve ser fácil de usar, sem exigir treinamento extenso para advogados e funcionários.
+- **[RNF006]** O sistema deve ser desenvolvido de forma que seja fácil de usar e de fácil aprendizado, de forma que os usuários não precisem de um treinamento extensivo para utilizá-lo.
 
 ## Suportabilidade
-- **[RNF007]** O sistema deve ser compatível com os navegadores Google Chrome, Mozilla Firefox e Microsoft Edge.
+- **[RNF002]** O sistema deve ser desenvolvido de forma que possa ser executado nos três principais navegadores da web: Google Chrome, Mozilla Firefox e Microsoft Edge, através de um computador com sistema operacional Windows, Linux ou Mac OS, bem como tablets e smartphones com sistema operacional Android ou iOS.
 
 ## Interoperabilidade
+- **[RNF001]** O sistema deve ser integrado com o Diário da Justiça para a leitura das intimações.
 - **[RNF008]** O sistema deve ser integrado com os sites dos tribunais de justiça para permitir buscas por jurisprudência.
 
 ## Manutenibilidade
-- **[RNF009]** O sistema deve ser escalável, permitindo a expansão de sua capacidade sem perda de desempenho.
+- **[RNF004]** O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de armazenamento de dados e de processamento de requisições sem que haja perda de desempenho.
+- **[RNF009]** O sistema deve ser desenvolvido de forma que possa ser facilmente atualizado e mantido, preferencialmente, de maneira automatizada.
+- **[RNF010]** O sistema deve ser desenvolvido de forma que possa ser facilmente testado e validado, de forma manual e automatizada.
 
 ## Desempenho
-- **[RNF010]** O tempo de resposta do sistema deve ser de no máximo 5 segundos com uma conexão de 1 Mbps.
-
-## Implantação
-- **[RNF011]** O sistema deve ser executado em qualquer dispositivo com conexão à internet, incluindo desktops, tablets e smartphones.
+- **[RNF003]** O sistema deve ser desenvolvido de forma que possa ser executado em qualquer dispositivo com conexão à internet, com velocidade de conexão de no mínimo 1 Mbps com tempo de resposta de no máximo 5 segundos.
 
 # Matriz de Rastreabilidade
 
-| RF / RNF  | RNF001 | RNF002 | RNF003 | RNF004 | RNF005 | RNF006 | RNF007 | RNF008 | RNF009 | RNF010 | RNF011 |
-| :-------: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-|  **RF001**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF002**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF003**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF004**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF005**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF006**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF007**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF008**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF009**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF010**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF011**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF012**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF013**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF014**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF015**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF016**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF017**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF018**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF019**|        |        |        |        |        |        |        |        |        |        |        |
-|  **RF020**|        |        |        |        |        |        |        |        |        |        |        |
+| RF / RNF  | RNF001 | RNF002 | RNF003 | RNF004 | RNF005 | RNF006 | RNF007 | RNF008 | RNF009 | RNF010 |
+| :-------: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+|  **RF001**|        |        |        |        |   X    |        |        |        |        |        |
+|  **RF002**|        |        |        |        |        |        |        |        |        |        |
+|  **RF003**|        |        |        |        |        |        |        |        |        |        |
+|  **RF004**|        |        |        |        |        |        |        |        |        |        |
+|  **RF005**|        |        |        |        |   X    |        |        |        |        |        |
+|  **RF006**|        |        |        |        |        |        |        |        |        |        |
+|  **RF007**|        |        |        |        |        |        |        |        |        |        |
+|  **RF008**|        |        |        |        |        |        |        |        |        |        |
+|  **RF009**|   X    |        |        |        |        |        |        |        |        |        |
+|  **RF010**|   X    |        |        |        |        |        |        |        |        |        |
+|  **RF011**|   X    |        |        |        |        |        |        |        |        |        |
+|  **RF012**|        |        |        |        |        |        |        |        |        |        |
+|  **RF013**|        |        |        |        |        |        |        |        |        |        |
+|  **RF014**|        |        |        |        |        |        |        |        |        |        |
+|  **RF015**|        |        |        |        |        |        |        |        |        |        |
+|  **RF016**|        |        |        |        |        |        |        |        |        |        |
+|  **RF017**|        |        |        |        |        |        |        |        |        |        |
+|  **RF018**|        |        |        |        |        |        |        |   X    |        |        |
+|  **RF019**|        |        |        |        |        |        |        |        |        |        |
+|  **RF020**|        |        |        |        |        |        |        |        |        |        |
 
 ---
 
