@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+
+actor "Advogado" as Advogado
+actor "Funcionário" as Funcionario
+actor "Sistema" as Sistema
+
+usecase "Ler e categorizar intimações do PJe" as UC9
+
+Advogado -- UC9
+Funcionario -- UC9
+UC9 <.. Sistema : "<<include>>"
+
+@enduml

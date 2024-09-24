@@ -1,0 +1,27 @@
+@startuml
+start
+
+:Usuário acessa a opção "Histórico de Atuação" em um processo específico;
+
+:Sistema exibe a lista de fases do processo selecionado;
+
+:Para cada fase, o sistema mostra:
+- Data da fase;
+- Tipo de ação (audiência, petição, etc.);
+- Profissionais envolvidos (advogados, estagiários);
+- Observações;
+
+:Usuário pode filtrar o histórico por:
+- Data;
+- Profissional;
+- Tipo de ação;
+
+if (Usuário deseja detalhes de uma fase?) then (Sim)
+    :Usuário seleciona a fase desejada;
+    :Sistema exibe detalhes completos da fase;
+else (Não)
+    :Usuário continua navegando no histórico;
+endif
+
+stop
+@enduml

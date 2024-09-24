@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+
+actor "Usuário" as Usuario
+
+usecase "Acessar plataforma" as UC1
+usecase "Recuperar senha" as UC2
+
+Usuario -- UC1
+
+UC2 ..> UC1 : <<extends>>
+
+Usuario - UC2
+@enduml

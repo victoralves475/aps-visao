@@ -1,0 +1,21 @@
+@startuml
+start
+
+:Sistema inicia o processo de leitura no PJe em horários pré-definidos (**RF009**);
+:Sistema acessa o PJe usando as credenciais dos usuários configurados;
+if (Conexão estabelecida?) then (Sim)
+    :Sistema verifica novas intimações disponíveis;
+    :Sistema baixa as intimações encontradas;
+    :Sistema associa as intimações aos processos correspondentes;
+    :Sistema categoriza as intimações por:
+    - Urgência;
+    - Assunto;
+    - Prazo;
+    :Sistema notifica os usuários (Advogados/Funcionários);
+else (Não)
+    :Sistema registra o erro de conexão;
+    :Sistema notifica o administrador;
+endif
+
+stop
+@enduml

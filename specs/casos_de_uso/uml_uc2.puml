@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Usuário" as Usuario
+
+usecase "Recuperar senha" as UC2
+
+Usuario -- UC2
+
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+
+actor "Advogado" as Advogado
+actor "Funcionário" as Funcionario
+
+usecase "Visualizar histórico de atuação em processos" as UC7
+
+Advogado -- UC7
+Funcionario -- UC7
+
+@enduml

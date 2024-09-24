@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Administrador" as Administrador
+
+usecase "Cadastrar advogados" as UC3
+
+Administrador -- UC3
+
+@enduml

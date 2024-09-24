@@ -1,0 +1,35 @@
+@startuml
+start
+
+:Administrador acessa a opção "Cadastrar Funcionário" no menu de administração;
+
+:Sistema exibe o formulário de cadastro de funcionários;
+
+:Administrador preenche os campos obrigatórios:
+- Nome;
+- CPF;
+- Endereço;
+- Data de nascimento;
+- Telefone;
+- E-mail;
+
+:Administrador clica em "Salvar";
+
+:Sistema valida as informações inseridas;
+
+if (Dados válidos?) then (Sim)
+    :Sistema verifica se o CPF já está cadastrado;
+    if (CPF já cadastrado?) then (Sim)
+        :Sistema exibe MSG07 ("Usuário já cadastrado com este CPF.");
+        stop
+    else (Não)
+        :Sistema registra o novo funcionário no banco de dados;
+        :Sistema exibe MSG06 ("Cadastro realizado com sucesso.");
+    endif
+else (Não)
+    :Sistema exibe MSG05 ("Dados inválidos ou incompletos.");
+    :Retorna ao formulário de cadastro;
+endif
+
+stop
+@enduml

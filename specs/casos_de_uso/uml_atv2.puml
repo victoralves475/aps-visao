@@ -1,0 +1,35 @@
+@startuml
+start
+
+:Usuário seleciona "Esqueci minha senha" na tela de login;
+
+:Sistema exibe a tela de recuperação de senha;
+
+:Usuário insere seu e-mail;
+
+:Usuário clica em "Enviar";
+
+:Sistema verifica se o e-mail está cadastrado;
+
+if (E-mail cadastrado?) then (Sim)
+    :Sistema envia e-mail com link de redefinição;    
+    :Usuário acessa o e-mail e clica no link;
+    :Sistema exibe tela de redefinição de senha;
+    :Usuário insere nova senha e confirma;
+    :Sistema valida a força da senha;
+
+    if (Senha atende aos critérios?) then (Sim)
+        :Sistema atualiza a senha;
+        :Sistema exibe MSG04 ("Senha redefinida com sucesso.");
+    else (Não)
+        :Sistema exibe MSG05 ("Senha não atende aos requisitos de segurança.");
+        :Retorna à tela de redefinição de senha;
+    endif
+
+else (Não)
+    :Sistema exibe MSG03 ("E-mail não cadastrado no sistema.");
+    :Retorna à tela de recuperação de senha;
+endif
+
+stop
+@enduml

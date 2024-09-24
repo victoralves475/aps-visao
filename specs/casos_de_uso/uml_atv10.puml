@@ -1,0 +1,24 @@
+@startuml
+start
+
+:Usuário acessa a seção "Notificações";
+:Sistema exibe a lista de notificações com status:
+- A serem feitas;
+- Em andamento;
+- Concluídas;
+if (Usuário deseja filtrar notificações?) then (Sim)
+    :Usuário aplica filtros (status, data, tipo de publicação);
+endif
+:Usuário seleciona uma notificação;
+:Usuário visualiza os detalhes da notificação;
+if (Usuário deseja alterar o status?) then (Sim)
+    :Usuário altera o status para:
+    - Concluída;
+    - Em andamento;
+    - A serem feitas;
+    :Sistema atualiza o status e registra a data/hora;
+    :Sistema exibe MSG13 ("Status atualizado com sucesso.");
+endif
+
+stop
+@enduml

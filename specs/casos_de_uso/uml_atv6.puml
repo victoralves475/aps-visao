@@ -1,0 +1,47 @@
+@startuml
+start
+
+:Usuário acessa a opção "Cadastrar Cliente/Processo" no menu;
+
+:Sistema exibe o formulário de cadastro com campos para:
+- Dados pessoais do cliente:
+  * Nome;
+  * CPF;
+  * Endereço;
+  * Telefone;
+  * E-mail;
+- Informações do processo:
+  * Número do processo;
+  * Vara;
+  * Comarca;
+  * Assunto;
+  * Descrição;
+
+:Usuário preenche os campos obrigatórios;
+
+:Usuário clica em "Salvar";
+
+:Sistema valida as informações inseridas;
+
+if (Dados válidos?) then (Sim)
+    :Sistema verifica se o CPF do cliente já está cadastrado;
+
+    if (CPF já cadastrado?) then (Sim)
+        :Sistema pergunta se deseja vincular o novo processo ao cliente existente;
+        if (Usuário opta por vincular?) then (Sim)
+            :Sistema vincula o processo ao cliente existente;
+            :Sistema exibe MSG06 ("Cadastro realizado com sucesso.");
+        else (Não)
+            :Usuário retorna ao formulário para alterar o CPF;
+        endif
+    else (Não)
+        :Sistema registra o novo cliente e o processo;
+        :Sistema exibe MSG06 ("Cadastro realizado com sucesso.");
+    endif
+else (Não)
+    :Sistema exibe MSG05 ("Dados inválidos ou incompletos.");
+    :Retorna ao formulário de cadastro;
+endif
+
+stop
+@enduml

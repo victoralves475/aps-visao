@@ -1,0 +1,57 @@
+@startuml
+start
+
+:Usuário acessa a opção "Agenda de Audiências";
+
+:Sistema exibe o calendário ou lista de audiências organizadas cronologicamente;
+
+if (Usuário deseja adicionar uma nova audiência?) then (Sim)
+    :Usuário clica em "Adicionar Audiência";
+    :Sistema exibe formulário para nova audiência com campos:
+    - Data;
+    - Hora;
+    - Local;
+    - Processo relacionado;
+    - Observações;
+    :Usuário preenche os campos e clica em "Salvar";
+    :Sistema valida os dados (**RN9**);
+    if (Dados válidos?) then (Sim)
+        :Sistema salva a nova audiência;
+        :Sistema atualiza a agenda;
+        :Sistema exibe MSG08 ("Audiência adicionada com sucesso.");
+    else (Não)
+        :Sistema exibe MSG05 ("Dados inválidos ou incompletos.");
+        :Retorna ao formulário de cadastro;
+    endif
+else (Não)
+    if (Usuário deseja editar uma audiência existente?) then (Sim)
+        :Usuário seleciona a audiência na agenda;
+        :Usuário clica em "Editar";
+        :Sistema exibe os dados da audiência;
+        :Usuário modifica os campos desejados e clica em "Salvar";
+        :Sistema valida os dados (**RN9**);
+        if (Dados válidos?) then (Sim)
+            :Sistema atualiza a audiência;
+            :Sistema atualiza a agenda;
+            :Sistema exibe MSG08 ("Audiência atualizada com sucesso.");
+        else (Não)
+            :Sistema exibe MSG05 ("Dados inválidos ou incompletos.");
+            :Retorna ao formulário de edição;
+        endif
+    else (Não)
+        if (Usuário deseja remover uma audiência?) then (Sim)
+            :Usuário seleciona a audiência na agenda;
+            :Usuário clica em "Excluir";
+            :Sistema solicita confirmação;
+            :Usuário confirma exclusão;
+            :Sistema remove a audiência;
+            :Sistema atualiza a agenda;
+            :Sistema exibe MSG12 ("Audiência excluída com sucesso.");
+        else (Não)
+            :Usuário visualiza a agenda;
+        endif
+    endif
+endif
+
+stop
+@enduml

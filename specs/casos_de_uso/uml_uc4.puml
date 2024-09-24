@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+
+actor "Administrador" as Administrador
+
+usecase "Cadastrar funcionários" as UC4
+
+Administrador -- UC4
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+start
+
+:Usuário acessa a opção "Configurar Monitoramento";
+
+:Sistema exibe a lista de UFs disponíveis;
+
+:Usuário seleciona uma ou mais UFs;
+
+if (Nenhuma UF selecionada?) then (Sim)
+    :Sistema exibe MSG09 ("Selecione pelo menos uma UF para monitoramento.");
+    :Retorna à lista de UFs;
+else (Não)
+    :Usuário clica em "Salvar";
+    :Sistema registra as UFs selecionadas;
+    :Sistema exibe MSG08 ("Configurações salvas com sucesso.");
+endif
+
+stop
+@enduml

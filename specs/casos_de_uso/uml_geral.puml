@@ -1,0 +1,66 @@
+@startuml
+left to right direction
+skinparam packageStyle rect
+
+' Definição dos atores e hierarquia
+actor "Usuário" as Usuario
+actor "Funcionário" as Funcionario
+actor "Advogado" as Advogado
+actor "Administrador" as Administrador
+
+Funcionario --|> Usuario
+Advogado --|> Funcionario
+Administrador --|> Funcionario
+
+' Pacotes de casos de uso
+package "Autenticação" {
+    Usuario -- (Acessar plataforma com e-mail e senha ou certificado digital)
+}
+
+package "Gerenciamento de Usuários" {
+    Administrador -- (Cadastrar advogados)
+    Administrador -- (Cadastrar funcionários)
+    Administrador -- (Remover advogados e funcionários)
+    Administrador -- (Conceder e revogar permissões)
+    Administrador -- (Vincular funcionários a advogados)
+}
+
+package "Monitoramento de Publicações" {
+    Funcionario -- (Selecionar UFs para monitorar publicações)
+    Administrador -- (Definir horário para buscas de publicações)
+}
+
+package "Gerenciamento de Clientes e Processos" {
+    Funcionario -- (Registrar clientes e processos)
+    Funcionario -- (Visualizar histórico de atuação em processos)
+    Funcionario -- (Categorizar processos)
+    Funcionario -- (Enviar andamento processual via WhatsApp)
+}
+
+package "Gestão de Audiências" {
+    Funcionario -- (Gerenciar audiências cronologicamente)
+}
+
+package "Notificações e Publicações" {
+    Funcionario -- (Ler e categorizar intimações do PJe)
+    Funcionario -- (Interagir com notificações das publicações)
+    Funcionario -- (Excluir notificações das publicações)
+}
+
+package "Backup e Recuperação de Dados" {
+    Administrador --> (Realizar backup dos dados)
+}
+
+package "Pesquisa Jurídica" {
+    Funcionario -- (Pesquisar jurisprudências e doutrinas)
+}
+
+package "Suporte e Manutenção" {
+    Administrador -- (Abrir chamados para suporte)
+}
+
+package "Análise de Desempenho" {
+    Administrador -- (Acessar painel de produtividade)
+    Administrador -- (Anotar faltas funcionais)
+}
+@enduml

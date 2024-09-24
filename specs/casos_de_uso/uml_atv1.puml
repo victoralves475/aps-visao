@@ -1,0 +1,27 @@
+@startuml
+start
+
+:Usuário acessa a página de login;
+
+if (Escolhe método de autenticação?) then (E-mail e senha)
+    :Usuário insere e-mail;
+    :Usuário insere senha;
+else (Certificado digital)
+    :Usuário conecta certificado digital;
+    :Sistema detecta o certificado;
+endif
+
+:Usuário clica em "Entrar";
+
+:Sistema valida as credenciais;
+
+if (Credenciais válidas?) then (Sim)
+    :Sistema verifica permissões;
+    :Sistema redireciona para o dashboard;
+else (Não)
+    :Sistema exibe MSG01;
+    :Retorna à tela de login;
+endif
+
+stop
+@enduml
