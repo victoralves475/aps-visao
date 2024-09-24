@@ -1,0 +1,17 @@
+@startuml
+start
+
+:Administrador acessa a lista de usuários;
+:Administrador seleciona o usuário a ser removido;
+:Administrador clica em "Remover";
+:Sistema solicita confirmação;
+if (Administrador confirma a remoção?) then (Sim)
+    :Sistema desativa o usuário;
+    :Sistema registra a ação para auditoria (**RN15**);
+    :Sistema exibe MSG14 ("Usuário removido com sucesso.");
+else (Não)
+    :Sistema cancela a operação;
+endif
+
+stop
+@enduml

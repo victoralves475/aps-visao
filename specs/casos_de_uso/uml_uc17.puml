@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Administrador" as Administrador
+
+usecase "Abrir chamados para suporte" as UC17
+
+Administrador -- UC17
+
+@enduml

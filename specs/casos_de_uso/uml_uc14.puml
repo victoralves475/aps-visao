@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Administrador" as Administrador
+
+usecase "Remover advogados e funcionários" as UC14
+
+Administrador -- UC14
+
+@enduml

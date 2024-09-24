@@ -1,0 +1,18 @@
+@startuml
+start
+
+:Usuário acessa a lista de notificações;
+:Usuário seleciona a notificação a ser excluída;
+:Usuário clica em "Excluir";
+:Sistema solicita confirmação;
+if (Usuário confirma a exclusão?) then (Sim)
+    :Sistema remove a notificação;
+    :Sistema atualiza a lista de notificações;
+    :Sistema registra a ação para auditoria (**RN12**);
+    :Sistema exibe MSG12 ("Notificação excluída com sucesso.");
+else (Não)
+    :Sistema cancela a operação;
+endif
+
+stop
+@enduml

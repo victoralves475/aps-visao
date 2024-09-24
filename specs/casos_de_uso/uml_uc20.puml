@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Administrador" as Administrador
+
+usecase "Realizar backup dos dados" as UC20
+
+Administrador --> UC20
+
+@enduml

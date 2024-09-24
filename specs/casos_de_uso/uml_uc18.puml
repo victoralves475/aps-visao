@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Administrador" as Administrador
+
+usecase "Acessar painel de produtividade" as UC18
+
+Administrador --> UC18
+
+@enduml

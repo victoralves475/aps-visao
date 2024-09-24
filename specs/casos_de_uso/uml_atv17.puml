@@ -1,0 +1,15 @@
+@startuml
+start
+
+:Administrador acessa a opção "Suporte";
+:Sistema exibe o formulário de abertura de chamados;
+:Administrador preenche os campos:
+- Descrição do problema;
+- Prioridade;
+- Anexos (se necessário);
+:Administrador clica em "Enviar";
+:Sistema registra o chamado e gera um número de protocolo;
+:Sistema exibe MSG17 ("Chamado aberto com sucesso. Protocolo nº XXXX.");
+
+stop
+@enduml

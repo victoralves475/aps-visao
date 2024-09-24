@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+
+actor "Advogado" as Advogado
+actor "Funcionário" as Funcionario
+
+usecase "Excluir notificações das publicações" as UC11
+
+Advogado -- UC11
+Funcionario -- UC11
+
+@enduml

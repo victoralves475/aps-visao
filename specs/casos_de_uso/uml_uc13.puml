@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+
+actor "Advogado" as Advogado
+actor "Funcionário" as Funcionario
+actor "WhatsApp" as WhatsApp
+
+usecase "Enviar andamento processual via WhatsApp" as UC13
+
+Advogado -- UC13
+Funcionario -- UC13
+UC13 -- WhatsApp : "<<extend>>"
+
+@enduml

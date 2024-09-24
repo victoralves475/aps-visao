@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Administrador" as Administrador
+
+usecase "Conceder e revogar permissões" as UC15
+
+Administrador -- UC15
+
+@enduml

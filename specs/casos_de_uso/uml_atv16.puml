@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Administrador acessa a opção "Gerenciar Equipes";
+:Sistema exibe a lista de advogados e funcionários;
+:Administrador seleciona um advogado;
+:Administrador adiciona ou remove funcionários da equipe;
+:Administrador clica em "Salvar";
+:Sistema atualiza as associações;
+:Sistema exibe MSG16 ("Equipe atualizada com sucesso.");
+
+stop
+@enduml

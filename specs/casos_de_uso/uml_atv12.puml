@@ -1,0 +1,16 @@
+@startuml
+start
+
+:Usuário acessa a lista de processos;
+:Sistema exibe os processos do usuário;
+:Usuário seleciona um processo;
+:Usuário escolhe a categoria:
+- Urgente;
+- Prioritário;
+- Sem prioridade;
+:Usuário confirma a seleção;
+:Sistema atualiza a categoria do processo;
+:Sistema exibe MSG13 ("Categoria atualizada com sucesso.");
+
+stop
+@enduml

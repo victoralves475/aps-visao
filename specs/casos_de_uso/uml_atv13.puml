@@ -1,0 +1,14 @@
+@startuml
+start
+
+:Usuário acessa o processo do cliente;
+:Usuário clica em "Enviar via WhatsApp";
+:Sistema gera mensagem padrão com o andamento processual;
+if (Usuário deseja editar a mensagem?) then (Sim)
+    :Usuário edita a mensagem;
+endif
+:Sistema abre o WhatsApp com a mensagem e o contato do cliente;
+:Usuário confirma o envio no WhatsApp;
+
+stop
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+start
+
+:Administrador acessa o perfil do usuário;
+:Sistema exibe o histórico de faltas;
+:Administrador clica em "Registrar Falta";
+:Administrador preenche:
+- Data;
+- Motivo;
+- Observações;
+:Administrador clica em "Salvar";
+:Sistema registra a falta;
+:Sistema notifica o usuário (**RN20**);
+:Sistema exibe MSG18 ("Falta registrada com sucesso.");
+
+stop
+@enduml

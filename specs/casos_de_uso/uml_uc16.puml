@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Administrador" as Administrador
+
+usecase "Vincular funcionários a advogados" as UC16
+
+Administrador -- UC16
+
+@enduml

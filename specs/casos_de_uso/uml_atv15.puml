@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Administrador acessa o perfil do usuário;
+:Sistema exibe as permissões atuais;
+:Administrador marca ou desmarca as permissões desejadas;
+:Administrador clica em "Salvar";
+:Sistema atualiza as permissões do usuário;
+:Sistema registra a alteração para auditoria (**RN16**);
+:Sistema exibe MSG15 ("Permissões atualizadas com sucesso.");
+
+stop
+@enduml

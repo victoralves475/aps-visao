@@ -1,0 +1,23 @@
+@startuml
+start
+
+:Administrador acessa a opção "Backup do Sistema";
+:Sistema exibe as opções de backup:
+- Completo;
+- Incremental;
+- Agendado;
+:Administrador seleciona o tipo de backup;
+if (Administrador escolhe "Agendado"?) then (Sim)
+    :Administrador define data e hora;
+endif
+:Administrador clica em "Iniciar Backup";
+:Sistema verifica espaço disponível (**RN21**);
+if (Espaço suficiente?) then (Sim)
+    :Sistema realiza o backup;
+    :Sistema exibe MSG19 ("Backup realizado com sucesso.");
+else (Não)
+    :Sistema exibe MSG05 ("Espaço insuficiente para realizar o backup.");
+endif
+
+stop
+@enduml

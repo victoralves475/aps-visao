@@ -1,0 +1,20 @@
+@startuml
+start
+
+:Administrador acessa a opção "Painel de Produtividade";
+:Sistema exibe gráficos e relatórios com indicadores:
+- Processos concluídos;
+- Audiências realizadas;
+- Tarefas pendentes;
+:Administrador pode aplicar filtros:
+- Período;
+- Equipe;
+- Usuário específico;
+if (Administrador deseja exportar os dados?) then (Sim)
+    :Administrador clica em "Exportar";
+    :Seleciona o formato (PDF, Excel);
+    :Sistema gera o arquivo para download;
+endif
+
+stop
+@enduml

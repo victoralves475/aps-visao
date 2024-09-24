@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+
+actor "Administrador" as Administrador
+
+usecase "Anotar faltas funcionais" as UC19
+
+Administrador --> UC19
+
+@enduml
