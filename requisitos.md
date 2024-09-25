@@ -71,26 +71,49 @@ Os seguintes usuários foram identificados para o **SGPJ**:
 
 # Requisitos Funcionais
 
-- **[RF001]** Como usuário, gostaria de acessar a plataforma através de credenciais como email e senha ou certificado digital.
-- **[RF002]** Como administrador, gostaria de cadastrar advogados e funcionários.
-- **[RF003]** Como advogado ou funcionário, gostaria de selecionar as UFs cujas publicações nos diários da justiça desejo monitorar, selecionando uma ou mais UFs e salvando a seleção clicando em um botão SALVAR.
-- **[RF004]** Como advogado ou funcionário, gostaria de registrar meus clientes e seus respectivos processos, armazenando dados pessoais e informações das demandas judiciais.
-- **[RF005]** Como advogado, funcionário ou administrador, gostaria de ter o histórico dos advogados e/ou estagiários que atuaram em cada fase dos processos judiciais dos clientes do escritório.
-- **[RF006]** Como administrador, gostaria de realizar o backup dos dados dos clientes e seus respectivos processos, para poder recuperá-los em caso de falha no sistema.
-- **[RF007]** Como advogado ou funcionário, gostaria de gerenciar minhas audiências de maneira cronológica.
-- **[RF008]** Como advogado ou funcionário, gostaria que o sistema fosse capaz de ler automaticamente as intimações no PJe e categorizá-las.
-- **[RF009]** Como administrador, gostaria de definir um horário para que o sistema realizasse as buscas de publicações para os advogados do escritório nos diários da justiça.
-- **[RF010]** Como advogado ou funcionário, gostaria de poder visualizar e interagir com as notificações das publicações dos diários da justiça, marcando-as como concluídas, em andamento ou a serem feitas.
-- **[RF011]** Como advogado ou funcionário, gostaria de poder excluir as notificações das publicações dos diários da justiça.
-- **[RF012]** Como advogado ou funcionário, gostaria de categorizar os processos em **URGENTES**, **PRIORITÁRIOS** ou **SEM PRIORIDADE**.
-- **[RF013]** Como advogado ou funcionário, gostaria de encaminhar para o WhatsApp dos clientes o andamento processual dos seus respectivos processos.
-- **[RF014]** Como administrador, gostaria de remover os funcionários e advogados do sistema.
-- **[RF015]** Como administrador, gostaria de conceder e revogar as permissões dos funcionários e advogados a qualquer momento.
-- **[RF016]** Como administrador, gostaria de vincular e desvincular cada funcionário a seu respectivo advogado.
-- **[RF017]** Como administrador, gostaria de abrir chamados diretamente para a equipe de suporte do sistema.
-- **[RF018]** Como advogado ou funcionário, gostaria de pesquisar jurisprudências e doutrinas dentro do sistema, com base em palavras-chave e categorias.
-- **[RF019]** Como administrador, gostaria de acessar um painel que mostrasse a produtividade dos advogados e funcionários do sistema.
-- **[RF020]** Como administrador, gostaria de anotar as faltas funcionais dos advogados e funcionários.
+**[RF001]** - Como **usuário**, eu gostaria de acessar a plataforma através de credenciais como e-mail e senha ou certificado digital, **para que** eu possa utilizar os serviços oferecidos de forma segura e autenticada.
+
+**[RF022]** - Como **usuário**, eu gostaria de recuperar minha senha caso a tenha esquecido, recebendo um link de redefinição no meu e-mail cadastrado, **para que** eu possa acessar a plataforma novamente de forma segura.
+
+**[RF002]** - Como **administrador**, eu gostaria de cadastrar advogados no sistema, registrando os seguintes dados: nome, CPF, OAB, endereço, data de nascimento, telefone e e-mail, **para que** eles possam acessar e utilizar a plataforma.
+
+**[RF021]** - Como **administrador**, eu gostaria de cadastrar funcionários no sistema, registrando os seguintes dados: nome, CPF, endereço, data de nascimento, telefone e e-mail, **para que** eles possam desempenhar suas funções dentro da plataforma.
+
+**[RF003]** - Como **advogado ou funcionário**, eu gostaria de selecionar as UFs (Unidades da Federação) cujas publicações nos diários da justiça desejo monitorar, selecionando uma ou mais UFs e salvando a seleção ao clicar em um botão "Salvar", **para que** eu possa acompanhar as publicações relevantes aos meus casos.
+
+**[RF004]** - Como **advogado ou funcionário**, eu gostaria de registrar meus clientes e seus respectivos processos, armazenando dados pessoais e informações das demandas judiciais, **para que** eu possa gerenciar e acompanhar os casos de forma eficiente.
+
+**[RF005]** - Como **advogado, funcionário ou administrador**, eu gostaria de ter o histórico dos advogados e/ou estagiários que atuaram em cada fase dos processos judiciais dos clientes do escritório, **para que** eu possa rastrear a participação da equipe em cada caso.
+
+**[RF006]** - Como **administrador**, eu gostaria de realizar o backup dos dados dos clientes e seus respectivos processos, **para que** eu possa recuperá-los em caso de falha no sistema.
+
+**[RF007]** - Como **advogado ou funcionário**, eu gostaria de gerenciar minhas audiências de maneira cronológica, **para que** eu possa organizar meu calendário e compromissos judiciais.
+
+**[RF008]** - Como **advogado ou funcionário**, eu gostaria que o sistema fosse capaz de ler automaticamente as intimações no PJe (Processo Judicial Eletrônico) e categorizá-las, **para que** eu possa identificar rapidamente as ações necessárias.
+
+**[RF009]** - Como **administrador**, eu gostaria de definir um horário para que o sistema realize as buscas de publicações para os advogados do escritório nos diários da justiça, **para que** possamos otimizar o fluxo de trabalho e garantir atualizações oportunas.
+
+**[RF010]** - Como **advogado ou funcionário**, eu gostaria de poder visualizar e interagir com as notificações das publicações dos diários da justiça, marcando-as como "concluídas", "em andamento" ou "a serem feitas", **para que** eu possa gerenciar minhas tarefas de forma eficaz.
+
+**[RF011]** - Como **advogado ou funcionário**, eu gostaria de poder excluir as notificações das publicações dos diários da justiça, **para que** eu possa manter minha área de trabalho organizada e relevante.
+
+**[RF012]** - Como **advogado ou funcionário**, eu gostaria de categorizar os processos em "urgentes", "prioritários" ou "sem prioridade", **para que** eu possa estabelecer prioridades no meu trabalho diário.
+
+**[RF013]** - Como **advogado ou funcionário**, eu gostaria de encaminhar para o WhatsApp dos clientes o andamento processual dos seus respectivos processos, **para que** eles estejam sempre informados sobre o status de seus casos.
+
+**[RF014]** - Como **administrador**, eu gostaria de remover funcionários e advogados do sistema, **para que** eu possa manter o controle sobre o acesso e a segurança da plataforma.
+
+**[RF015]** - Como **administrador**, eu gostaria de conceder e revogar as permissões dos funcionários e advogados a qualquer momento, **para que** eu possa controlar quem tem acesso a determinadas funcionalidades do sistema.
+
+**[RF016]** - Como **administrador**, eu gostaria de vincular e desvincular cada funcionário ao seu respectivo advogado, **para que** eu possa organizar a estrutura de trabalho e hierarquia dentro do sistema.
+
+**[RF017]** - Como **administrador**, eu gostaria de abrir chamados diretamente para a equipe de suporte do sistema, **para que** eu possa reportar problemas ou solicitar melhorias.
+
+**[RF018]** - Como **advogado ou funcionário**, eu gostaria de pesquisar jurisprudências e doutrinas dentro do sistema, com base em palavras-chave e categorias, **para que** eu possa fundamentar melhor os processos.
+
+**[RF019]** - Como **administrador**, eu gostaria de acessar um painel que mostre a produtividade dos advogados e funcionários do sistema, **para que** eu possa monitorar o desempenho da equipe.
+
+**[RF020]** - Como **administrador**, eu gostaria de anotar as faltas funcionais dos advogados e funcionários, **para que** eu possa acompanhar a assiduidade e cumprir com as políticas internas.
 
 ---
 

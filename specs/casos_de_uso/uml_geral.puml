@@ -15,6 +15,7 @@ Administrador --|> Funcionario
 ' Pacotes de casos de uso
 package "Autenticação" {
     Usuario -- (Acessar plataforma com e-mail e senha ou certificado digital)
+    Usuario -- (Recuperar senha)
 }
 
 package "Gerenciamento de Usuários" {

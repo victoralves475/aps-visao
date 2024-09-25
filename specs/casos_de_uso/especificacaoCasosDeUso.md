@@ -1,8 +1,12 @@
-## Caso de Uso UC1 - Acessar plataforma
+Com base nos requisitos funcionais fornecidos, fiz as correções necessárias nos tópicos de **Requisitos** dos casos de uso. Segue o documento atualizado:
+
+---
+
+## **Caso de Uso UC1 - Acessar plataforma**
 
 **Objetivo**: Permitir que o usuário acesse a plataforma de forma segura utilizando credenciais como e-mail e senha ou certificado digital.
 
-**Requisitos**: RF001
+**Requisitos**: **RF001**
 
 **Atores**: Usuário
 
@@ -36,11 +40,11 @@
 
 ---
 
-## Caso de Uso UC2 - Recuperar senha
+## **Caso de Uso UC2 - Recuperar senha**
 
 **Objetivo**: Permitir que o usuário recupere sua senha caso a tenha esquecido.
 
-**Requisitos**: RF019, RF020
+**Requisitos**: **RF022**
 
 **Atores**: Usuário
 
@@ -72,11 +76,11 @@
 
 ---
 
-## Caso de Uso UC3 - Cadastrar advogados
+## **Caso de Uso UC3 - Cadastrar advogados**
 
 **Objetivo**: Permitir que o administrador cadastre novos advogados no sistema.
 
-**Requisitos**: RF002
+**Requisitos**: **RF002**
 
 **Atores**: Administrador
 
@@ -104,11 +108,11 @@
 
 ---
 
-## Caso de Uso UC4 - Cadastrar funcionários
+## **Caso de Uso UC4 - Cadastrar funcionários**
 
 **Objetivo**: Permitir que o administrador cadastre novos funcionários no sistema.
 
-**Requisitos**: RF021
+**Requisitos**: **RF021**
 
 **Atores**: Administrador
 
@@ -136,11 +140,11 @@
 
 ---
 
-## Caso de Uso UC5 - Selecionar UFs para monitorar publicações
+## **Caso de Uso UC5 - Selecionar UFs para monitorar publicações**
 
 **Objetivo**: Permitir que o advogado ou funcionário selecione as unidades federativas (UFs) cujas publicações deseja monitorar nos diários da justiça.
 
-**Requisitos**: RF003
+**Requisitos**: **RF003**
 
 **Atores**: Advogado, Funcionário
 
@@ -166,11 +170,11 @@
 
 ---
 
-## Caso de Uso UC6 - Registrar clientes e processos
+## **Caso de Uso UC6 - Registrar clientes e processos**
 
 **Objetivo**: Permitir que o advogado ou funcionário registre clientes e seus respectivos processos, armazenando dados pessoais e informações das demandas judiciais.
 
-**Requisitos**: RF004
+**Requisitos**: **RF004**
 
 **Atores**: Advogado, Funcionário
 
@@ -198,11 +202,11 @@
 
 ---
 
-## Caso de Uso UC7 - Visualizar histórico de atuação em processos
+## **Caso de Uso UC7 - Visualizar histórico de atuação em processos**
 
 **Objetivo**: Permitir que o advogado ou funcionário visualize o histórico de profissionais que atuaram em cada fase dos processos judiciais dos clientes.
 
-**Requisitos**: RF005
+**Requisitos**: **RF005**
 
 **Atores**: Advogado, Funcionário
 
@@ -227,11 +231,11 @@
 
 ---
 
-## Caso de Uso UC8 - Gerenciar audiências cronologicamente
+## **Caso de Uso UC8 - Gerenciar audiências cronologicamente**
 
 **Objetivo**: Permitir que o advogado ou funcionário gerencie suas audiências de forma cronológica.
 
-**Requisitos**: RF007
+**Requisitos**: **RF007**
 
 **Atores**: Advogado, Funcionário
 
@@ -257,11 +261,11 @@
 
 ---
 
-## Caso de Uso UC9 - Ler e categorizar intimações do PJe
+## **Caso de Uso UC9 - Ler e categorizar intimações do PJe**
 
 **Objetivo**: Permitir que o sistema leia automaticamente as intimações no PJe e as categorize para o advogado ou funcionário.
 
-**Requisitos**: RF008
+**Requisitos**: **RF008**
 
 **Atores**: Sistema (processo automatizado), Advogado, Funcionário
 
@@ -288,11 +292,11 @@
 
 ---
 
-## Caso de Uso UC10 - Interagir com notificações das publicações
+## **Caso de Uso UC10 - Interagir com notificações das publicações**
 
 **Objetivo**: Permitir que o advogado ou funcionário visualize e gerencie as notificações das publicações dos diários da justiça.
 
-**Requisitos**: RF010
+**Requisitos**: **RF010**
 
 **Atores**: Advogado, Funcionário
 
@@ -317,11 +321,11 @@
 
 ---
 
-## Caso de Uso UC11 - Excluir notificações das publicações
+## **Caso de Uso UC11 - Excluir notificações das publicações**
 
 **Objetivo**: Permitir que o advogado ou funcionário exclua notificações irrelevantes ou duplicadas.
 
-**Requisitos**: RF011
+**Requisitos**: **RF011**
 
 **Atores**: Advogado, Funcionário
 
@@ -348,11 +352,11 @@
 
 ---
 
-## Caso de Uso UC12 - Categorizar processos
+## **Caso de Uso UC12 - Categorizar processos**
 
 **Objetivo**: Permitir que o advogado ou funcionário categorize os processos em "Urgentes", "Prioritários" ou "Sem Prioridade".
 
-**Requisitos**: RF012
+**Requisitos**: **RF012**
 
 **Atores**: Advogado, Funcionário
 
@@ -378,11 +382,11 @@
 
 ---
 
-## Caso de Uso UC13 - Enviar andamento processual via WhatsApp
+## **Caso de Uso UC13 - Enviar andamento processual via WhatsApp**
 
 **Objetivo**: Permitir que o advogado ou funcionário encaminhe atualizações do andamento processual aos clientes via WhatsApp.
 
-**Requisitos**: RF013
+**Requisitos**: **RF013**
 
 **Atores**: Advogado, Funcionário
 
@@ -408,11 +412,11 @@
 
 ---
 
-## Caso de Uso UC14 - Remover advogados e funcionários
+## **Caso de Uso UC14 - Remover advogados e funcionários**
 
 **Objetivo**: Permitir que o administrador remova advogados e funcionários do sistema.
 
-**Requisitos**: RF014
+**Requisitos**: **RF014**
 
 **Atores**: Administrador
 
@@ -440,11 +444,11 @@
 
 ---
 
-## Caso de Uso UC15 - Conceder e revogar permissões
+## **Caso de Uso UC15 - Conceder e revogar permissões**
 
 **Objetivo**: Permitir que o administrador gerencie as permissões dos advogados e funcionários a qualquer momento.
 
-**Requisitos**: RF015
+**Requisitos**: **RF015**
 
 **Atores**: Administrador
 
@@ -470,11 +474,11 @@
 
 ---
 
-## Caso de Uso UC16 - Vincular funcionários a advogados
+## **Caso de Uso UC16 - Vincular funcionários a advogados**
 
 **Objetivo**: Permitir que o administrador vincule ou desvincule funcionários aos seus respectivos advogados.
 
-**Requisitos**: RF016
+**Requisitos**: **RF016**
 
 **Atores**: Administrador
 
@@ -500,11 +504,11 @@
 
 ---
 
-## Caso de Uso UC17 - Abrir chamados para suporte
+## **Caso de Uso UC17 - Abrir chamados para suporte**
 
 **Objetivo**: Permitir que o administrador abra chamados diretamente para a equipe de suporte do sistema.
 
-**Requisitos**: RF017
+**Requisitos**: **RF017**
 
 **Atores**: Administrador
 
@@ -530,11 +534,11 @@
 
 ---
 
-## Caso de Uso UC18 - Acessar painel de produtividade
+## **Caso de Uso UC18 - Acessar painel de produtividade**
 
 **Objetivo**: Permitir que o administrador acesse um painel que mostre a produtividade dos advogados e funcionários do sistema.
 
-**Requisitos**: RF019
+**Requisitos**: **RF019**
 
 **Atores**: Administrador
 
@@ -558,11 +562,11 @@
 
 ---
 
-## Caso de Uso UC19 - Anotar faltas funcionais
+## **Caso de Uso UC19 - Anotar faltas funcionais**
 
 **Objetivo**: Permitir que o administrador registre as faltas funcionais dos advogados e funcionários.
 
-**Requisitos**: RF020
+**Requisitos**: **RF020**
 
 **Atores**: Administrador
 
@@ -588,11 +592,11 @@
 
 ---
 
-## Caso de Uso UC20 - Realizar backup dos dados
+## **Caso de Uso UC20 - Realizar backup dos dados**
 
 **Objetivo**: Permitir que o administrador realize backups dos dados dos clientes e seus respectivos processos.
 
-**Requisitos**: RF006
+**Requisitos**: **RF006**
 
 **Atores**: Administrador
 

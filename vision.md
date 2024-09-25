@@ -12,7 +12,8 @@
 
 |    Data    | Versão |           Descrição           |      Autor       |
 | :--------: | :----: | :---------------------------: | :--------------: |
-| 21/08/2024 |  1.0   |     Criação do documento      | Equipe 4         |
+| 21/08/2024 |  0.1.0 |     Criação do documento      | Equipe 4         |
+| 24/09/2024 |  0.1.1 |     Correção de requisitos    | Equipe 4         |
 
 ---
 
