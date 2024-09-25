@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1678px" preserveAspectRatio="none" style="width:1318px;height:1678px;background:#FFFFFF;" version="1.1" viewBox="0 0 1318 1678" width="1318px" zoomAndPan="magnify"><defs/><g><!--MD5=[5b670c3179948757c5cd0fff268ef964]
+cluster AutenticaÃ§Ã£o--><g id="cluster_AutenticaÃ§Ã£o"><rect fill="none" height="227" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="439" x="873" y="621"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="1038" y="637.5332">AutenticaÃ§Ã£o</text></g><!--MD5=[ba631891bd900606de506d1206079b26]
+cluster Gerenciamento de UsuÃ¡rios--><g id="cluster_Gerenciamento de UsuÃ¡rios"><rect fill="none" height="445" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="296" x="140" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="201" x="187.5" y="23.5332">Gerenciamento de UsuÃ¡rios</text></g><!--MD5=[95c55f6de1d39eb698f216d38849e3ab]
+cluster Monitoramento de PublicaÃ§Ãµes--><g id="cluster_Monitoramento de PublicaÃ§Ãµes"><rect fill="none" height="227" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="358" x="475.5" y="327"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="235" x="537" y="343.5332">Monitoramento de PublicaÃ§Ãµes</text></g><!--MD5=[06648718cb2e704f29262e4d0dc2f27e]
+cluster Gerenciamento de Clientes e Processos--><g id="cluster_Gerenciamento de Clientes e Processos"><rect fill="none" height="389" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="371" x="469" y="803"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="283" x="513" y="819.5332">Gerenciamento de Clientes e Processos</text></g><!--MD5=[1f4ff6ab7d203ed3da69f55f135160b9]
+cluster GestÃ£o de AudiÃªncias--><g id="cluster_GestÃ£o de AudiÃªncias"><rect fill="none" height="114" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="320" x="494.5" y="1216"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="167" x="571" y="1232.5332">GestÃ£o de AudiÃªncias</text></g><!--MD5=[bb31123747e19ee4b12a664a30560e41]
+cluster NotificaÃ§Ãµes e PublicaÃ§Ãµes--><g id="cluster_NotificaÃ§Ãµes e PublicaÃ§Ãµes"><rect fill="none" height="318" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="367" x="471" y="1354"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="223" x="543" y="1370.5332">NotificaÃ§Ãµes e PublicaÃ§Ãµes</text></g><!--MD5=[82dcbcf259180c6b5492e915013949e0]
+cluster Backup e RecuperaÃ§Ã£o de Dados--><g id="cluster_Backup e RecuperaÃ§Ã£o de Dados"><rect fill="none" height="100" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="266" x="155.5" y="730"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="250" x="163.5" y="746.5332">Backup e RecuperaÃ§Ã£o de Dados</text></g><!--MD5=[001b68f7b6ce38a3c9de891903d5e2e2]
+cluster Pesquisa JurÃ­dica--><g id="cluster_Pesquisa JurÃ­dica"><rect fill="none" height="112" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="308" x="500.5" y="578"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="134" x="587.5" y="594.5332">Pesquisa JurÃ­dica</text></g><!--MD5=[137c769aea967fd333a3bbe6eb3788ff]
+cluster Suporte e ManutenÃ§Ã£o--><g id="cluster_Suporte e ManutenÃ§Ã£o"><rect fill="none" height="102" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="253" x="161.5" y="854"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="178" x="199" y="870.5332">Suporte e ManutenÃ§Ã£o</text></g><!--MD5=[a8a6b7979f6b3b2031feb1043e20f647]
+cluster AnÃ¡lise de Desempenho--><g id="cluster_AnÃ¡lise de Desempenho"><rect fill="none" height="183" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="270" x="153" y="476"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="175" x="200.5" y="492.5332">AnÃ¡lise de Desempenho</text></g><g id="elem_Acessar plataforma com e-mail e senha ou certificado digital"><ellipse cx="1092.3954" cy="700.0791" fill="#F1F1F1" rx="203.3954" ry="43.0791" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="379" x="902.8954" y="703.8076">Acessar plataforma com e-mail e senha ou certificado digital</text></g><g id="elem_Recuperar senha"><ellipse cx="1092.2877" cy="814.0575" fill="#F1F1F1" rx="78.2877" ry="18.0575" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="1035.5149" y="818.2774">Recuperar senha</text></g><g id="elem_Cadastrar advogados"><ellipse cx="288.035" cy="243.807" fill="#F1F1F1" rx="89.535" ry="20.307" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="219.535" y="247.5355">Cadastrar advogados</text></g><g id="elem_Cadastrar funcionÃ¡rios"><ellipse cx="288.1904" cy="320.9381" fill="#F1F1F1" rx="95.1904" ry="21.4381" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="213.1904" y="324.6666">Cadastrar funcionÃ¡rios</text></g><g id="elem_Remover advogados e funcionÃ¡rios"><ellipse cx="287.7597" cy="406.7519" fill="#F1F1F1" rx="131.7597" ry="28.7519" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="230" x="172.7597" y="410.4805">Remover advogados e funcionÃ¡rios</text></g><g id="elem_Conceder e revogar permissÃµes"><ellipse cx="287.8414" cy="70.0683" fill="#F1F1F1" rx="123.3414" ry="27.0683" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="181.8414" y="73.7968">Conceder e revogar permissÃµes</text></g><g id="elem_Vincular funcionÃ¡rios a advogados"><ellipse cx="287.9447" cy="160.1889" fill="#F1F1F1" rx="128.9447" ry="28.1889" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="224" x="175.9447" y="163.9175">Vincular funcionÃ¡rios a advogados</text></g><g id="elem_Selecionar UFs para monitorar publicaÃ§Ãµes"><ellipse cx="654.2666" cy="503.0533" fill="#F1F1F1" rx="160.7666" ry="34.5533" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="291" x="508.7666" y="506.7818">Selecionar UFs para monitorar publicaÃ§Ãµes</text></g><g id="elem_Definir horÃ¡rio para buscas de publicaÃ§Ãµes"><ellipse cx="654.6689" cy="398.0338" fill="#F1F1F1" rx="163.1689" ry="35.0338" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="296" x="506.6689" y="401.7623">Definir horÃ¡rio para buscas de publicaÃ§Ãµes</text></g><g id="elem_Registrar clientes e processos"><ellipse cx="654.6359" cy="864.1272" fill="#F1F1F1" rx="113.6359" ry="25.1272" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="559.1359" y="867.8557">Registrar clientes e processos</text></g><g id="elem_Visualizar histÃ³rico de atuaÃ§Ã£o em processos"><ellipse cx="654.4281" cy="960.7856" fill="#F1F1F1" rx="169.4281" ry="36.2856" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="309" x="499.9281" y="964.5141">Visualizar histÃ³rico de atuaÃ§Ã£o em processos</text></g><g id="elem_Categorizar processos"><ellipse cx="654.6965" cy="1053.2393" fill="#F1F1F1" rx="91.6965" ry="20.7393" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="583.6965" y="1056.9678">Categorizar processos</text></g><g id="elem_Enviar andamento processual via WhatsApp"><ellipse cx="654.5142" cy="1141.9028" fill="#F1F1F1" rx="155.0142" ry="33.4028" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="279" x="515.0142" y="1145.6314">Enviar andamento processual via WhatsApp</text></g><g id="elem_Gerenciar audiÃªncias cronologicamente"><ellipse cx="654.5463" cy="1283.2093" fill="#F1F1F1" rx="144.0463" ry="31.2093" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="256" x="526.5463" y="1286.9378">Gerenciar audiÃªncias cronologicamente</text></g><g id="elem_Ler e categorizar intimaÃ§Ãµes do PJe"><ellipse cx="654.359" cy="1420.0718" fill="#F1F1F1" rx="138.359" ry="30.0718" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="532.359" y="1423.8003">Ler e categorizar intimaÃ§Ãµes do PJe</text></g><g id="elem_Interagir com notificaÃ§Ãµes das publicaÃ§Ãµes"><ellipse cx="654.5002" cy="1520.9" fill="#F1F1F1" rx="167.5002" ry="35.9" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="305" x="502.0002" y="1524.6286">Interagir com notificaÃ§Ãµes das publicaÃ§Ãµes</text></g><g id="elem_Excluir notificaÃ§Ãµes das publicaÃ§Ãµes"><ellipse cx="654.3519" cy="1623.9704" fill="#F1F1F1" rx="147.8519" ry="31.9704" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="264" x="522.3519" y="1627.6989">Excluir notificaÃ§Ãµes das publicaÃ§Ãµes</text></g><g id="elem_Realizar backup dos dados"><ellipse cx="288.0397" cy="789.8079" fill="#F1F1F1" rx="104.5397" ry="23.3079" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="202.5397" y="793.5365">Realizar backup dos dados</text></g><g id="elem_Pesquisar jurisprudÃªncias e doutrinas"><ellipse cx="654.3863" cy="643.9773" fill="#F1F1F1" rx="137.8863" ry="29.9773" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="532.8863" y="647.7058">Pesquisar jurisprudÃªncias e doutrinas</text></g><g id="elem_Abrir chamados para suporte"><ellipse cx="287.934" cy="914.9868" fill="#F1F1F1" rx="110.434" ry="24.4868" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="195.934" y="918.7153">Abrir chamados para suporte</text></g><g id="elem_Acessar painel de produtividade"><ellipse cx="288.165" cy="617.233" fill="#F1F1F1" rx="119.165" ry="26.233" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="203" x="186.665" y="620.9615">Acessar painel de produtividade</text></g><g id="elem_Anotar faltas funcionais"><ellipse cx="287.813" cy="533.7626" fill="#F1F1F1" rx="94.313" ry="21.2626" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="213.813" y="537.4911">Anotar faltas funcionais</text></g><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><g id="elem_Usuario"><ellipse cx="654.5" cy="717.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M654.5,725.5 L654.5,752.5 M641.5,733.5 L667.5,733.5 M654.5,752.5 L641.5,767.5 M654.5,752.5 L667.5,767.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="627.5" y="783.5332">UsuÃ¡rio</text></g><!--MD5=[2eae17a2a41bed15cb34e9642d7f0f85]
+entity Funcionario--><g id="elem_Funcionario"><ellipse cx="288" cy="1000.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M288,1008.5 L288,1035.5 M275,1016.5 L301,1016.5 M288,1035.5 L275,1050.5 M288,1035.5 L301,1050.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="247.5" y="1066.5332">FuncionÃ¡rio</text></g><!--MD5=[1a72a22161a11616124667101ae308cd]
+entity Advogado--><g id="elem_Advogado"><ellipse cx="49.5" cy="1000.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M49.5,1008.5 L49.5,1035.5 M36.5,1016.5 L62.5,1016.5 M49.5,1035.5 L36.5,1050.5 M49.5,1035.5 L62.5,1050.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="17.5" y="1066.5332">Advogado</text></g><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="49.5" cy="503.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M49.5,511.5 L49.5,538.5 M36.5,519.5 L62.5,519.5 M49.5,538.5 L36.5,553.5 M49.5,538.5 L62.5,553.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="6" y="569.5332">Administrador</text></g><!--MD5=[a51d5badafaf03318bbd3d6e28e518cc]
+link Funcionario to Usuario--><g id="link_Funcionario_Usuario"><path d="M328.66,1023.03 C364.83,1013.55 416.68,993.98 444,956 C452.7,943.91 451.83,834.74 461,823 C496.3,777.82 562.56,759.82 607.37,752.67 " fill="none" id="Funcionario-to-Usuario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="606.65,745.71,627.41,749.96,608.52,759.58,606.65,745.71" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1148eacd4249a4ef1b5a6ba2944979f7]
+link Advogado to Funcionario--><g id="link_Advogado_Funcionario"><path d="M81.91,1031 C118.76,1031 180.7,1031 226.89,1031 " fill="none" id="Advogado-to-Funcionario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="227.17,1024,247.17,1031,227.17,1038,227.17,1024" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[026ccd8d7b2b22733b5afa64ce37d302]
+link Administrador to Funcionario--><g id="link_Administrador_Funcionario"><path d="M53.6,573.05 C61.64,665.79 85.84,895.96 132,956 C155.57,986.66 194.91,1005.49 228.06,1016.61 " fill="none" id="Administrador-to-Funcionario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="230.1,1009.91,247.19,1022.44,226.02,1023.31,230.1,1009.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8f1571b697a6b093f64bf49d6bc40557]
+link Usuario to Acessar plataforma com e-mail e senha ou certificado digital--><g id="link_Usuario_Acessar plataforma com e-mail e senha ou certificado digital"><path d="M681.79,745.11 C727.13,740.11 823.63,729.49 911.59,719.81 " fill="none" id="Usuario-Acessar plataforma com e-mail e senha ou certificado digital" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a8e8ee9672f3c9ae407367e81e81f1ef]
+link Usuario to Recuperar senha--><g id="link_Usuario_Recuperar senha"><path d="M681.79,751.98 C749.08,762.17 929.09,789.42 1026.59,804.17 " fill="none" id="Usuario-Recuperar senha" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9c7a28c1cd5abe7fa8dcaba65385d374]
+reverse link Acessar plataforma com e-mail e senha ou certificado digital to Recuperar senha--><g id="link_Acessar plataforma com e-mail e senha ou certificado digital_Recuperar senha"><path d="M1092.5,748.28 C1092.5,765.15 1092.5,783.08 1092.5,795.94 " fill="none" id="Acessar plataforma com e-mail e senha ou certificado digital-backto-Recuperar senha" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1092.5,743.08,1088.5,752.08,1092.5,748.08,1096.5,752.08,1092.5,743.08" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1050.5" y="774.9951">«extends»</text></g><!--MD5=[7cb6b79e4047005c2eb7bab25e7e8962]
+link Administrador to Cadastrar advogados--><g id="link_Administrador_Cadastrar advogados"><path d="M51.79,495 C55.81,439.49 71.56,338.21 132,282 C150.87,264.45 176.48,254.64 201.45,249.26 " fill="none" id="Administrador-Cadastrar advogados" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[81ec27e4d7563abd89c737edc18916c9]
+link Administrador to Cadastrar funcionÃ¡rios--><g id="link_Administrador_Cadastrar funcionÃ¡rios"><path d="M58.53,494.76 C68.75,454.93 90.31,394.38 132,360 C151.05,344.29 175.59,334.79 199.5,329.08 " fill="none" id="Administrador-Cadastrar funcionÃ¡rios" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[537e652bf2d63c5c904983016a01f546]
+link Administrador to Remover advogados e funcionÃ¡rios--><g id="link_Administrador_Remover advogados e funcionÃ¡rios"><path d="M93.05,511.15 C133.48,489.44 194.28,456.79 237,433.85 " fill="none" id="Administrador-Remover advogados e funcionÃ¡rios" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9993cd63229dc9193284501f408ffecb]
+link Administrador to Conceder e revogar permissÃµes--><g id="link_Administrador_Conceder e revogar permissÃµes"><path d="M52.95,494.93 C59.58,401.66 80.94,169.59 132,114 C145.06,99.78 162.33,90.04 180.61,83.38 " fill="none" id="Administrador-Conceder e revogar permissÃµes" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e8fa2ac45cc2445465f87baa6b10c4b2]
+link Administrador to Vincular funcionÃ¡rios a advogados--><g id="link_Administrador_Vincular funcionÃ¡rios a advogados"><path d="M55.32,494.95 C65.67,417.32 92.31,247.51 132,206 C145.19,192.2 162.31,182.49 180.34,175.67 " fill="none" id="Administrador-Vincular funcionÃ¡rios a advogados" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[18fad43d34c723cc492d209178af4c83]
+link Funcionario to Selecionar UFs para monitorar publicaÃ§Ãµes--><g id="link_Funcionario_Selecionar UFs para monitorar publicaÃ§Ãµes"><path d="M328.66,1023.68 C365.37,1014.62 418.06,995.29 444,956 C454.42,940.22 451.1,804.89 452,786 C452.5,775.56 455.27,606.75 461,598 C482.09,565.82 517.48,544.14 552.21,529.73 " fill="none" id="Funcionario-Selecionar UFs para monitorar publicaÃ§Ãµes" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b0a6a2c74c0da29d346f781b354775be]
+link Administrador to Definir horÃ¡rio para buscas de publicaÃ§Ãµes--><g id="link_Administrador_Definir horÃ¡rio para buscas de publicaÃ§Ãµes"><path d="M64.16,573.12 C76.76,602.6 98.63,640.92 132,659 C253.92,725.06 342.03,752.97 444,659 C478.1,627.57 431.41,486.71 461,451 C474.49,434.72 492.48,423.18 512.06,415.06 " fill="none" id="Administrador-Definir horÃ¡rio para buscas de publicaÃ§Ãµes" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e78d19fba5edecde953a987eee016e53]
+link Funcionario to Registrar clientes e processos--><g id="link_Funcionario_Registrar clientes e processos"><path d="M328.64,1021.15 C363.53,1010.55 413.4,990.4 444,956 C459.32,938.78 443.8,922.34 461,907 C483.68,886.77 513.77,875.4 543.41,869.18 " fill="none" id="Funcionario-Registrar clientes e processos" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5e81777d0cded9291ef9a7f6461e5762]
+link Funcionario to Visualizar histÃ³rico de atuaÃ§Ã£o em processos--><g id="link_Funcionario_Visualizar histÃ³rico de atuaÃ§Ã£o em processos"><path d="M328.7,1023.38 C376.12,1014.27 457.77,998.59 527.34,985.23 " fill="none" id="Funcionario-Visualizar histÃ³rico de atuaÃ§Ã£o em processos" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fd5b8bfc820212cd4bf4ea0a0937a123]
+link Funcionario to Categorizar processos--><g id="link_Funcionario_Categorizar processos"><path d="M328.7,1033.4 C385.25,1036.81 490.49,1043.16 565.86,1047.71 " fill="none" id="Funcionario-Categorizar processos" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cd702cab2e1e13473fa899f73fcc52c6]
+link Funcionario to Enviar andamento processual via WhatsApp--><g id="link_Funcionario_Enviar andamento processual via WhatsApp"><path d="M328.68,1045.81 C363.36,1058.53 415.19,1076.96 461,1091 C490.42,1100.01 522.65,1108.92 552.18,1116.71 " fill="none" id="Funcionario-Enviar andamento processual via WhatsApp" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fb0b96a2972a7dd758fde06f04d86bfe]
+link Funcionario to Gerenciar audiÃªncias cronologicamente--><g id="link_Funcionario_Gerenciar audiÃªncias cronologicamente"><path d="M324.03,1070.1 C356.91,1105.19 408.74,1156.48 461,1192 C498.91,1217.77 545.26,1239.92 582.98,1255.92 " fill="none" id="Funcionario-Gerenciar audiÃªncias cronologicamente" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5eadb118c7c47a16792d13f3929a99f2]
+link Funcionario to Ler e categorizar intimaÃ§Ãµes do PJe--><g id="link_Funcionario_Ler e categorizar intimaÃ§Ãµes do PJe"><path d="M302.62,1070.2 C326.07,1132.61 379.52,1255.15 461,1330 C493.06,1359.45 536.46,1380.87 573.94,1395.41 " fill="none" id="Funcionario-Ler e categorizar intimaÃ§Ãµes do PJe" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e2da0cd3dd1c2badc116e3d3cc0266f4]
+link Funcionario to Interagir com notificaÃ§Ãµes das publicaÃ§Ãµes--><g id="link_Funcionario_Interagir com notificaÃ§Ãµes das publicaÃ§Ãµes"><path d="M292.84,1070.21 C303.33,1155.63 340.34,1359.53 461,1468 C476.85,1482.25 496.2,1492.72 516.45,1500.39 " fill="none" id="Funcionario-Interagir com notificaÃ§Ãµes das publicaÃ§Ãµes" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d87a2d06c44b8a0271fa1ef733a282de]
+link Funcionario to Excluir notificaÃ§Ãµes das publicaÃ§Ãµes--><g id="link_Funcionario_Excluir notificaÃ§Ãµes das publicaÃ§Ãµes"><path d="M289.17,1070.2 C291.84,1169.96 313.2,1435.39 461,1575 C478.05,1591.1 499.62,1602.11 522.11,1609.59 " fill="none" id="Funcionario-Excluir notificaÃ§Ãµes das publicaÃ§Ãµes" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7e08f5000d6eb9e429fea48f180f47a4]
+link Administrador to Realizar backup dos dados--><g id="link_Administrador_Realizar backup dos dados"><path d="M56.27,573.09 C64.34,614.93 82.82,680.8 123,722 C146.08,745.67 178.61,761.44 208.62,771.78 " fill="none" id="Administrador-to-Realizar backup dos dados" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="213.42,773.39,206.1769,766.7164,208.6838,771.7874,203.6127,774.2943,213.42,773.39" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[36b14bf644e670b679e32d32144351ae]
+link Funcionario to Pesquisar jurisprudÃªncias e doutrinas--><g id="link_Funcionario_Pesquisar jurisprudÃªncias e doutrinas"><path d="M328.51,1023.59 C365.11,1014.45 417.72,995.07 444,956 C452.23,943.76 451.52,702.31 461,691 C476.8,672.15 498.79,660.16 522.29,652.68 " fill="none" id="Funcionario-Pesquisar jurisprudÃªncias e doutrinas" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6bbff905e9cddd4181b9209bc6827abf]
+link Administrador to Abrir chamados para suporte--><g id="link_Administrador_Abrir chamados para suporte"><path d="M51.8,573.06 C55.73,634.13 71.26,753.17 132,830 C155.79,860.1 193.3,881.07 225.47,894.65 " fill="none" id="Administrador-Abrir chamados para suporte" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[142fb8606e8a344697cafa42150ee932]
+link Administrador to Acessar painel de produtividade--><g id="link_Administrador_Acessar painel de produtividade"><path d="M93.05,556.04 C105.42,561.98 119.09,568.12 132,573 C156.46,582.25 183.74,590.61 208.5,597.5 " fill="none" id="Administrador-Acessar painel de produtividade" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f1508beca66e6b33dc0ca967dc25b9c5]
+link Administrador to Anotar faltas funcionais--><g id="link_Administrador_Anotar faltas funcionais"><path d="M93.05,534 C120.98,534 158.63,534 193.32,534 " fill="none" id="Administrador-Anotar faltas funcionais" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f12a00d50b5786f56c92ba1ec6115ef6]
+@startuml
+left to right direction
+skinparam packageStyle rect
+
+' DefiniÃ§Ã£o dos atores e hierarquia
+actor "UsuÃ¡rio" as Usuario
+actor "FuncionÃ¡rio" as Funcionario
+actor "Advogado" as Advogado
+actor "Administrador" as Administrador
+
+Funcionario - -|> Usuario
+Advogado - -|> Funcionario
+Administrador - -|> Funcionario
+
+' Pacotes de casos de uso
+package "AutenticaÃ§Ã£o" {
+    Usuario - - (Acessar plataforma com e-mail e senha ou certificado digital)
+    Usuario - - (Recuperar senha)
+    (Acessar plataforma com e-mail e senha ou certificado digital)<. (Recuperar senha) : <<extends>>
+}
+
+package "Gerenciamento de UsuÃ¡rios" {
+    Administrador - - (Cadastrar advogados)
+    Administrador - - (Cadastrar funcionÃ¡rios)
+    Administrador - - (Remover advogados e funcionÃ¡rios)
+    Administrador - - (Conceder e revogar permissÃµes)
+    Administrador - - (Vincular funcionÃ¡rios a advogados)
+}
+
+package "Monitoramento de PublicaÃ§Ãµes" {
+    Funcionario - - (Selecionar UFs para monitorar publicaÃ§Ãµes)
+    Administrador - - (Definir horÃ¡rio para buscas de publicaÃ§Ãµes)
+}
+
+package "Gerenciamento de Clientes e Processos" {
+    Funcionario - - (Registrar clientes e processos)
+    Funcionario - - (Visualizar histÃ³rico de atuaÃ§Ã£o em processos)
+    Funcionario - - (Categorizar processos)
+    Funcionario - - (Enviar andamento processual via WhatsApp)
+}
+
+package "GestÃ£o de AudiÃªncias" {
+    Funcionario - - (Gerenciar audiÃªncias cronologicamente)
+}
+
+package "NotificaÃ§Ãµes e PublicaÃ§Ãµes" {
+    Funcionario - - (Ler e categorizar intimaÃ§Ãµes do PJe)
+    Funcionario - - (Interagir com notificaÃ§Ãµes das publicaÃ§Ãµes)
+    Funcionario - - (Excluir notificaÃ§Ãµes das publicaÃ§Ãµes)
+}
+
+package "Backup e RecuperaÃ§Ã£o de Dados" {
+    Administrador - -> (Realizar backup dos dados)
+}
+
+package "Pesquisa JurÃ­dica" {
+    Funcionario - - (Pesquisar jurisprudÃªncias e doutrinas)
+}
+
+package "Suporte e ManutenÃ§Ã£o" {
+    Administrador - - (Abrir chamados para suporte)
+}
+
+package "AnÃ¡lise de Desempenho" {
+    Administrador - - (Acessar painel de produtividade)
+    Administrador - - (Anotar faltas funcionais)
+}
+@enduml
+
+@startuml
+left to right direction
+skinparam packageStyle rect
+
+actor "UsuÃ¡rio" as Usuario
+actor "FuncionÃ¡rio" as Funcionario
+actor "Advogado" as Advogado
+actor "Administrador" as Administrador
+
+Funcionario - -|> Usuario
+Advogado - -|> Funcionario
+Administrador - -|> Funcionario
+
+package "AutenticaÃ§Ã£o" {
+    Usuario - - (Acessar plataforma com e-mail e senha ou certificado digital)
+    Usuario - - (Recuperar senha)
+    (Acessar plataforma com e-mail e senha ou certificado digital)<. (Recuperar senha) : <<extends>>
+}
+
+package "Gerenciamento de UsuÃ¡rios" {
+    Administrador - - (Cadastrar advogados)
+    Administrador - - (Cadastrar funcionÃ¡rios)
+    Administrador - - (Remover advogados e funcionÃ¡rios)
+    Administrador - - (Conceder e revogar permissÃµes)
+    Administrador - - (Vincular funcionÃ¡rios a advogados)
+}
+
+package "Monitoramento de PublicaÃ§Ãµes" {
+    Funcionario - - (Selecionar UFs para monitorar publicaÃ§Ãµes)
+    Administrador - - (Definir horÃ¡rio para buscas de publicaÃ§Ãµes)
+}
+
+package "Gerenciamento de Clientes e Processos" {
+    Funcionario - - (Registrar clientes e processos)
+    Funcionario - - (Visualizar histÃ³rico de atuaÃ§Ã£o em processos)
+    Funcionario - - (Categorizar processos)
+    Funcionario - - (Enviar andamento processual via WhatsApp)
+}
+
+package "GestÃ£o de AudiÃªncias" {
+    Funcionario - - (Gerenciar audiÃªncias cronologicamente)
+}
+
+package "NotificaÃ§Ãµes e PublicaÃ§Ãµes" {
+    Funcionario - - (Ler e categorizar intimaÃ§Ãµes do PJe)
+    Funcionario - - (Interagir com notificaÃ§Ãµes das publicaÃ§Ãµes)
+    Funcionario - - (Excluir notificaÃ§Ãµes das publicaÃ§Ãµes)
+}
+
+package "Backup e RecuperaÃ§Ã£o de Dados" {
+    Administrador - -> (Realizar backup dos dados)
+}
+
+package "Pesquisa JurÃ­dica" {
+    Funcionario - - (Pesquisar jurisprudÃªncias e doutrinas)
+}
+
+package "Suporte e ManutenÃ§Ã£o" {
+    Administrador - - (Abrir chamados para suporte)
+}
+
+package "AnÃ¡lise de Desempenho" {
+    Administrador - - (Acessar painel de produtividade)
+    Administrador - - (Anotar faltas funcionais)
+}
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 15:12:26 BRT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

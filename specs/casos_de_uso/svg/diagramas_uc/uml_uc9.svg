@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="201px" preserveAspectRatio="none" style="width:599px;height:201px;background:#FFFFFF;" version="1.1" viewBox="0 0 599 201" width="599px" zoomAndPan="magnify"><defs/><g><!--MD5=[1a72a22161a11616124667101ae308cd]
+entity Advogado--><g id="elem_Advogado"><ellipse cx="46.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M46.5,22 L46.5,49 M33.5,30 L59.5,30 M46.5,49 L33.5,64 M46.5,49 L59.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="14.5" y="80.0332">Advogado</text></g><!--MD5=[2eae17a2a41bed15cb34e9642d7f0f85]
+entity Funcionario--><g id="elem_Funcionario"><ellipse cx="46.5" cy="127" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M46.5,135 L46.5,162 M33.5,143 L59.5,143 M46.5,162 L33.5,177 M46.5,162 L59.5,177 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="6" y="193.0332">FuncionÃ¡rio</text></g><!--MD5=[52ec6a8b74b13041fc2aa09119826c6e]
+entity Sistema--><g id="elem_Sistema"><ellipse cx="567" cy="71" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M567,79 L567,106 M554,87 L580,87 M567,106 L554,121 M567,106 L580,121 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="542" y="137.0332">Sistema</text></g><g id="elem_UC9"><ellipse cx="286.359" cy="101.5718" fill="#F1F1F1" rx="138.359" ry="30.0718" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="164.359" y="105.3003">Ler e categorizar intimaÃ§Ãµes do PJe</text></g><!--MD5=[03379d1de336727db80f5a84e6ab9ef5]
+link Advogado to UC9--><g id="link_Advogado_UC9"><path d="M78.61,51.95 C107.66,58.91 152.48,69.64 192.99,79.34 " fill="none" id="Advogado-UC9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c7ed3f76a303e7e1258e8a52ed04f652]
+link Funcionario to UC9--><g id="link_Funcionario_UC9"><path d="M87.07,148.19 C115.69,141.46 155.58,132.07 192.1,123.48 " fill="none" id="Funcionario-UC9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4089696236d34f383c0c431841d06a22]
+reverse link UC9 to Sistema--><g id="link_UC9_Sistema"><path d="M430.12,101.5 C473.39,101.5 516.23,101.5 541.91,101.5 " fill="none" id="UC9-backto-Sistema" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="425.12,101.5,434.12,105.5,430.12,101.5,434.12,97.5,425.12,101.5" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="456" y="97.9951">«include»</text></g><!--MD5=[4acd387d74329abefea2eafe59c69d44]
+@startuml
+left to right direction
+
+actor "Advogado" as Advogado
+actor "FuncionÃ¡rio" as Funcionario
+actor "Sistema" as Sistema
+
+usecase "Ler e categorizar intimaÃ§Ãµes do PJe" as UC9
+
+Advogado - - UC9
+Funcionario - - UC9
+UC9 <.. Sistema : "<<include>>"
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 15:12:26 BRT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

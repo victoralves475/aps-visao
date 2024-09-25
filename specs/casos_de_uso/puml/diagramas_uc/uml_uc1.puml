@@ -8,7 +8,7 @@ usecase "Recuperar senha" as UC2
 
 Usuario -- UC1
 
-UC2 ..> UC1 : <<extends>>
+UC2 <.. UC1 : <<extends>>
 
 Usuario - UC2
 @enduml

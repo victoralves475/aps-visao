@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="160px" preserveAspectRatio="none" style="width:457px;height:160px;background:#FFFFFF;" version="1.1" viewBox="0 0 457 160" width="457px" zoomAndPan="magnify"><defs/><g><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><g id="elem_Usuario"><ellipse cx="84.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M84.5,22 L84.5,49 M71.5,30 L97.5,30 M84.5,49 L71.5,64 M84.5,49 L97.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="57.5" y="80.0332">UsuÃ¡rio</text></g><g id="elem_UC1"><ellipse cx="368.169" cy="91.5338" fill="#F1F1F1" rx="83.169" ry="19.0338" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="307.169" y="95.2623">Acessar plataforma</text></g><g id="elem_UC2"><ellipse cx="84.2877" cy="136.5575" fill="#F1F1F1" rx="78.2877" ry="18.0575" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="27.5149" y="140.7774">Recuperar senha</text></g><!--MD5=[3bf97b21437bb50a3847ad07237a1ab7]
+link Usuario to UC1--><g id="link_Usuario_UC1"><path d="M111.73,48.88 C154.38,56 240.06,70.31 300.36,80.37 " fill="none" id="Usuario-UC1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c032944cc6968d22cd9c49a2cce0d067]
+reverse link UC2 to UC1--><g id="link_UC2_UC1"><path d="M154.42,125.48 C198.56,118.43 255.58,109.31 299.45,102.3 " fill="none" id="UC2-backto-UC1" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="149.38,126.29,158.8964,128.8275,154.318,125.5051,157.6404,120.9267,149.38,126.29" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="194" y="106.9951">«extends»</text></g><!--MD5=[a79f49966e18d505242c6265dffaeae2]
+link Usuario to UC2--><g id="link_Usuario_UC2"><path d="M84.5,83.64 C84.5,95.15 84.5,106.66 84.5,118.17 " fill="none" id="Usuario-UC2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7aaad0d80213206858cee5f08a22dcef]
+@startuml
+left to right direction
+
+actor "UsuÃ¡rio" as Usuario
+
+usecase "Acessar plataforma" as UC1
+usecase "Recuperar senha" as UC2
+
+Usuario - - UC1
+
+UC2 <.. UC1 : <<extends>>
+
+Usuario - UC2
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 15:12:26 BRT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

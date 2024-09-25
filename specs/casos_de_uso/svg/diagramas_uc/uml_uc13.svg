@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="201px" preserveAspectRatio="none" style="width:645px;height:201px;background:#FFFFFF;" version="1.1" viewBox="0 0 645 201" width="645px" zoomAndPan="magnify"><defs/><g><!--MD5=[1a72a22161a11616124667101ae308cd]
+entity Advogado--><g id="elem_Advogado"><ellipse cx="46.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M46.5,22 L46.5,49 M33.5,30 L59.5,30 M46.5,49 L33.5,64 M46.5,49 L59.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="14.5" y="80.0332">Advogado</text></g><!--MD5=[2eae17a2a41bed15cb34e9642d7f0f85]
+entity Funcionario--><g id="elem_Funcionario"><ellipse cx="46.5" cy="127" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M46.5,135 L46.5,162 M33.5,143 L59.5,143 M46.5,162 L33.5,177 M46.5,162 L59.5,177 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="6" y="193.0332">FuncionÃ¡rio</text></g><!--MD5=[f3421f31044ae3d774721f5df6890d49]
+entity WhatsApp--><g id="elem_WhatsApp"><ellipse cx="605.5" cy="71" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M605.5,79 L605.5,106 M592.5,87 L618.5,87 M605.5,106 L592.5,121 M605.5,106 L618.5,121 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="573" y="137.0332">WhatsApp</text></g><g id="elem_UC13"><ellipse cx="303.0142" cy="101.4028" fill="#F1F1F1" rx="155.0142" ry="33.4028" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="279" x="163.5142" y="105.1314">Enviar andamento processual via WhatsApp</text></g><!--MD5=[5c3a67ce8af53fa51a58d799aa232604]
+link Advogado to UC13--><g id="link_Advogado_UC13"><path d="M78.71,51.49 C107.71,57.98 152.62,68.04 194.59,77.44 " fill="none" id="Advogado-UC13" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0d87f40a0d7f4e765f2c5a72d1cff88e]
+link Funcionario to UC13--><g id="link_Funcionario_UC13"><path d="M87.27,148.75 C115.85,142.46 155.86,133.66 193.61,125.35 " fill="none" id="Funcionario-UC13" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[14efc9e7434b4a5535cca394bb4213cd]
+link UC13 to WhatsApp--><g id="link_UC13_WhatsApp"><path d="M458.21,101.5 C501.73,101.5 544.81,101.5 572.82,101.5 " fill="none" id="UC13-WhatsApp" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="489" y="97.9951">«extend»</text></g><!--MD5=[2dd75d0444e9206accde29b3fe843b38]
+@startuml
+left to right direction
+
+actor "Advogado" as Advogado
+actor "FuncionÃ¡rio" as Funcionario
+actor "WhatsApp" as WhatsApp
+
+usecase "Enviar andamento processual via WhatsApp" as UC13
+
+Advogado - - UC13
+Funcionario - - UC13
+UC13 - - WhatsApp : "<<extend>>"
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 15:12:26 BRT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>
