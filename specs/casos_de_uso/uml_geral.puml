@@ -16,6 +16,7 @@ Administrador --|> Funcionario
 package "Autenticação" {
     Usuario -- (Acessar plataforma com e-mail e senha ou certificado digital)
     Usuario -- (Recuperar senha)
+    (Acessar plataforma com e-mail e senha ou certificado digital).> (Recuperar senha) : <<extends>>
 }
 
 package "Gerenciamento de Usuários" {
