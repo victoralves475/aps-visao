@@ -1,0 +1,135 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+' Classe abstrata Usuario
+abstract class Usuario {
+    - id: int
+    - nome: String
+    - cpf: String
+    - endereco: String
+    - dataNascimento: Date
+    - telefone: String
+    - email: String
+    - senha: String
+    + autenticar(): boolean
+    + recuperarSenha(email: String): void
+}
+
+class Advogado {
+    - oab: String
+    + selecionarUFs(ufs: List<UF>): void
+    + cadastrarCliente(cliente: Cliente): void
+    + gerenciarAudiencias(): void
+    + visualizarHistorico(processos: List<Processo>): void
+}
+
+class Funcionario {
+    + selecionarUFs(ufs: List<UF>): void
+    + cadastrarCliente(cliente: Cliente): void
+    + gerenciarAudiencias(): void
+}
+
+class Administrador {
+    + cadastrarAdvogado(advogado: Advogado): void
+    + cadastrarFuncionario(funcionario: Funcionario): void
+    + concederPermissoes(usuario: Usuario): void
+    + removerUsuario(usuario: Usuario): void
+    + realizarBackup(): void
+    + abrirChamado(chamado: Chamado): void
+    + acessarPainelProdutividade(): void
+    + anotarFalta(usuario: Usuario): void
+}
+
+class Cliente {
+    - id: int
+    - nome: String
+    - cpf: String
+    - endereco: String
+    - telefone: String
+    - email: String
+    + processos: List<Processo>
+    + adicionarProcesso(processo: Processo): void
+}
+
+class Processo {
+    - numero: String
+    - vara: String
+    - comarca: String
+    - assunto: String
+    - descricao: String
+    - categoria: String
+    + historicoAtuacao: List<HistoricoAtuacao>
+    + adicionarAtuacao(historico: HistoricoAtuacao): void
+}
+
+class HistoricoAtuacao {
+    - data: Date
+    - tipoAcao: String
+    - profissional: Usuario
+    - observacoes: String
+}
+
+class UF {
+    - sigla: String
+    - nome: String
+}
+
+class Notificacao {
+    - id: int
+    - conteudo: String
+    - status: String
+    - dataCriacao: Date
+    + alterarStatus(status: String): void
+    + excluir(): void
+}
+
+class Publicacao {
+    - id: int
+    - conteudo: String
+    - dataPublicacao: Date
+    - uf: UF
+    + gerarNotificacao(): Notificacao
+}
+
+class Chamado {
+    - id: int
+    - descricao: String
+    - prioridade: String
+    - anexos: List<Anexo>
+    - status: String
+    + abrir(): void
+    + consultarStatus(): String
+}
+
+class Anexo {
+    - id: int
+    - nomeArquivo: String
+    - tipoArquivo: String
+    - dados: byte[]
+}
+
+' Relações entre as classes
+Usuario <|-- Advogado
+Usuario <|-- Funcionario
+Usuario <|-- Administrador
+
+Advogado "1" -- "*" Cliente : "atende"
+Funcionario "1" -- "*" Cliente : "assiste"
+
+Cliente "1" o-- "*" Processo
+
+Processo "1" *-- "*" HistoricoAtuacao
+
+Advogado "*" -- "*" Notificacao : "recebe"
+Funcionario "*" -- "*" Notificacao : "recebe"
+
+Advogado "*" -- "*" Publicacao : "monitora"
+Funcionario "*" -- "*" Publicacao : "monitora"
+
+Publicacao "*" -- "1" UF
+
+Administrador "*" -- "*" Chamado : "abre"
+
+Chamado "*" o-- "*" Anexo : "contém"
+
+@enduml
